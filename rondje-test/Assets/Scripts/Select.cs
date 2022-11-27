@@ -4,12 +4,14 @@ using UnityEngine;
 
 public class Select : MonoBehaviour
 {
+    private Renderer spriteRend;
 
-    private Renderer renderer;
     // Start is called before the first frame update
     void Start()
     {
-        renderer = GetComponent<Renderer>();
+        spriteRend = GetComponent<Renderer>();
+        // Set colour to be 0 when the game starts
+        spriteRend.material.color = new Color(1, 1, 1, 0);
     }
 
     // Update is called once per frame
@@ -20,11 +22,28 @@ public class Select : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        renderer.material.color = Color.blue;
+        StartCoroutine(FadeTo(1.0f, 1.0f));
     }
 
-    private void OnMouseExit()
+    private IEnumerator OnMouseExit()
     {
-        renderer.material.color = Color.white;
+        yield return new WaitForSeconds(1);
+        StartCoroutine(FadeTo(0.0f, 1.0f));
+    }
+
+    IEnumerator FadeTo(float aValue, float aTime)
+    {
+        float alpha = spriteRend.material.color.a;
+
+        // For every smol unit of time
+        for (float t = 0.0f; t < 1.0f; t += Time.deltaTime / aTime)
+        {
+            // Increments/ decrements the alpha value and sets it to be the new colour of the sprite
+            Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
+            spriteRend.material.color = newColor;
+
+            // Wait for the next frame and continue execution from this line
+            yield return null;
+        }
     }
 }
