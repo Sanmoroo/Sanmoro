@@ -470,7 +470,7 @@ GameObject:
   - component: {fileID: 1578290241}
   - component: {fileID: 1578290240}
   m_Layer: 0
-  m_Name: Select_Animation
+  m_Name: BottomLeftSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

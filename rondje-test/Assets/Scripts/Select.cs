@@ -6,12 +6,14 @@ public class Select : MonoBehaviour
 {
     private DateTime prevTriggered;
     private Renderer spriteRend;
+    private Animator anim;
     private Boolean fadeReady;
 
     // Start is called before the first frame update
     void Start()
     {
         spriteRend = GetComponent<Renderer>();
+        anim = gameObject.GetComponent<Animator>();
 
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
@@ -32,6 +34,7 @@ public class Select : MonoBehaviour
             return;
         
         StartCoroutine(FadeTo(1.0f, 1.0f));
+        anim.SetTrigger("Active");
         fadeReady = false;
     }
 
@@ -42,7 +45,6 @@ public class Select : MonoBehaviour
             yield return new WaitForSeconds(7);
             prevTriggered = DateTime.Now;
             StartCoroutine(FadeTo(0.0f, 1.0f));
-
             // Set fadeReady back to true once the sprite has faded out so we can retrigger.
             fadeReady = true;
         }
