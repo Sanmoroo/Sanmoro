@@ -4,14 +4,15 @@ using UnityEngine;
 
 public abstract class InteractableSprite : MonoBehaviour
 {
-    // Don't change
+    // Won't change
     private Renderer spriteRend;
     private Animator anim;
     private DateTime prevTriggered;
-    private bool fadeReady;
+    private bool interactionReady = true;
 
-    // Overridable
+    // Overridable in child classes
     public abstract float TimeToFade { get; }
+    public abstract string AttachedAnimation { get; }
 
     // Start is called before the first frame update
     public void Start()
@@ -34,23 +35,33 @@ public abstract class InteractableSprite : MonoBehaviour
 
     public void OnMouseEnter()
     {
+        // If enough time has elapsed this check will pass
         if (!CanBeTriggered()) 
             return;
-        
+
         StartCoroutine(FadeTo(1.0f, TimeToFade));
-        anim.SetTrigger("Active");
-        fadeReady = false;
+        PlayAnimation();
+        interactionReady = false;
     }
 
     public IEnumerator OnMouseExit()
     {
-        if (!fadeReady)
+        if (!interactionReady)
         {
             yield return new WaitForSeconds(7);
             prevTriggered = DateTime.Now;
             StartCoroutine(FadeTo(0.0f, TimeToFade));
             // Set fadeReady back to true once the sprite has faded out so we can retrigger.
-            fadeReady = true;
+            interactionReady = true;
+        }
+    }
+
+    public void PlayAnimation()
+    {
+        // Ensures the animation only plays once per fade
+        if (interactionReady)
+        {
+            anim.Play(AttachedAnimation, 0, 0f);
         }
     }
 
