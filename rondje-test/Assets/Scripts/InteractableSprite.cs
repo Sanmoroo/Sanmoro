@@ -2,15 +2,19 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class Select : MonoBehaviour
+public abstract class InteractableSprite : MonoBehaviour
 {
-    private DateTime prevTriggered;
+    // Don't change
     private Renderer spriteRend;
     private Animator anim;
-    private Boolean fadeReady;
+    private DateTime prevTriggered;
+    private bool fadeReady;
+
+    // Overridable
+    public abstract float TimeToFade { get; }
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         spriteRend = GetComponent<Renderer>();
         anim = gameObject.GetComponent<Animator>();
@@ -28,23 +32,23 @@ public class Select : MonoBehaviour
         
     }
 
-    private void OnMouseEnter()
+    public void OnMouseEnter()
     {
         if (!CanBeTriggered()) 
             return;
         
-        StartCoroutine(FadeTo(1.0f, 1.0f));
+        StartCoroutine(FadeTo(1.0f, TimeToFade));
         anim.SetTrigger("Active");
         fadeReady = false;
     }
 
-    private IEnumerator OnMouseExit()
+    public IEnumerator OnMouseExit()
     {
         if (!fadeReady)
         {
             yield return new WaitForSeconds(7);
             prevTriggered = DateTime.Now;
-            StartCoroutine(FadeTo(0.0f, 1.0f));
+            StartCoroutine(FadeTo(0.0f, TimeToFade));
             // Set fadeReady back to true once the sprite has faded out so we can retrigger.
             fadeReady = true;
         }
@@ -54,7 +58,7 @@ public class Select : MonoBehaviour
     /// Returns true if last fade happened more than 10 seconds ago, false if not
     /// </summary>
     /// <returns>boolean</returns>
-    private bool CanBeTriggered()
+    public bool CanBeTriggered()
     {
         TimeSpan timeDifference = DateTime.Now - prevTriggered;
         if (timeDifference.Seconds > 10)
@@ -69,7 +73,7 @@ public class Select : MonoBehaviour
     /// <param name="aValue">Alpha value to fade to</param>
     /// <param name="aTime">Time over which the fade should occur</param>
     /// <returns></returns>
-    IEnumerator FadeTo(float aValue, float aTime)
+    public IEnumerator FadeTo(float aValue, float aTime)
     {
         float alpha = spriteRend.material.color.a;
 
