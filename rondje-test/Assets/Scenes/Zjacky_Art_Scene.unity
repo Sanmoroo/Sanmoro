@@ -255,7 +255,7 @@ GameObject:
   - component: {fileID: 1195052125}
   - component: {fileID: 1195052129}
   m_Layer: 0
-  m_Name: Top_Left
+  m_Name: TopLeftSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1195052124}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b28c9b946876e7419f22885ffeb8df9, type: 3}
+  m_Script: {fileID: 11500000, guid: 0b2fe8f3c09897241b771fae2abb67ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!95 &1195052126
@@ -498,7 +498,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1578290239}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5b28c9b946876e7419f22885ffeb8df9, type: 3}
+  m_Script: {fileID: 11500000, guid: 345fe8dc55095d240b82abe494f93961, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &1578290242
