@@ -1,0 +1,1125 @@
+fileFormatVersion: 2
+guid: c23cf369f859f3a438c306e7b0a07383
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rechts_onder_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d18e1c2099373408e517d56ba74c7b
+      internalID: -283311742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c2a77e736b5344a54ec05ea0f2664
+      internalID: -1018758987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_2
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5319861b206e2ba4abb603c91f66cf3a
+      internalID: 1783908792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_3
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e12b7a42c80a2b64a9e8c129305f5362
+      internalID: -308498629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_4
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f174a7cb5327474d8cd893ca29782a8
+      internalID: 1437121093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_5
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab4e65ee0141f04589a77ec9481bc31
+      internalID: -1472898042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_6
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4e60bb9c8f8544a9d0ad1abc035c4d
+      internalID: -1516057806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_7
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a40bfc05ad75fa46b5c2f685d72cb71
+      internalID: -1674019404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe39ca872b30f8648b457963b24e87ee
+      internalID: 19959562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b0b2b267637f447b62bc4e0e8c8ce8
+      internalID: 1185762121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_10
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 317a5b6c75f3c0045bd43f6f7087bcd5
+      internalID: -1428982378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_11
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 739f4dc6720107e40adb79d6e2c1be5f
+      internalID: -308845310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_12
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60299f99bff432447a00b0200bdec66c
+      internalID: 1894783918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_13
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1016c8eb2bc7c264589254fa632f4b59
+      internalID: 82296712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_14
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6234f8242a61c764cab4d45194344b83
+      internalID: -1783267335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_15
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfaea1e5f622ea34bb88d6e4295b2506
+      internalID: -1097929901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912cf10ea34905e4b8bcbd6c20597ffd
+      internalID: 358277530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6da99af5a4f398d40a2793171ef10abc
+      internalID: 1477959477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_18
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693d758f9da47b547b08c0a28f7a7ca5
+      internalID: -1626695100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_19
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cb967a3ea0b82d4cbeb0fda4ddc9a1a
+      internalID: 169136171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_20
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef396227d97d1e4bac8a127cbf24c35
+      internalID: -762089888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_21
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56d01db692eb414ca92dd741e267059
+      internalID: -755638931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_22
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203ac75605fa3f84c896e8b3e63a2661
+      internalID: 432343448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_23
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c284ec351bbde46bf09ae6d681b1ba
+      internalID: -1701234896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f7f32f998a59449a56034e0de75679
+      internalID: -121309039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b5d781263c1240af97d7a33d44eda
+      internalID: 1590886197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_26
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51473fd12b266c84987022f1d3863fad
+      internalID: 1879617099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_27
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76214237f5241ae4fab39c48fab986fb
+      internalID: 898232784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_28
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95153e320993bd843b22e530bd27fd5e
+      internalID: -1317729055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_29
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d630a641a8f7e54e941a7b6d38b2c20
+      internalID: 148653966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_30
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a53abfcb6d6f4a8f968d5d141957a
+      internalID: -2076404049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_31
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250035693adb20242abe507c5d361d91
+      internalID: 2010787262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e32f66e4cb0ea4ea88d5141dfa81cc
+      internalID: -676595882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_33
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751ff9ebd6150474d9d729a14cbc3117
+      internalID: 1518649203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9fae10c6df3f442a7659398eb2ee91
+      internalID: 1458599501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_35
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9080d81a228fbb4eb83d49d9bcaedbb
+      internalID: -1404094903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_36
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c04c14491fc1a498251be86b231bbd
+      internalID: 2136144576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_37
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 596530edc2ae5e94083aba824c70554c
+      internalID: 1406215937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_38
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1322884b203d1ee43a364d83acf1483d
+      internalID: -578954406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_39
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06af0acc6b5eefd46ba7aabfa449e7b5
+      internalID: -1211584126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf988a6452dbcff43b66d27fa8131537
+      internalID: 8155172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_41
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8319e27f210a604bb632dfd18a6cbc4
+      internalID: -730284902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_42
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cac3c347eef70243ba3ffa57e74c3a1
+      internalID: -1639250413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_43
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09469957d153a542a0a459b77a4fa33
+      internalID: -1770788199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rechts_onder_44
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40930551426eb10479b010a58557f478
+      internalID: 1592182083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rechts_onder_40: 8155172
+      Rechts_onder_3: -308498629
+      Rechts_onder_41: -730284902
+      Rechts_onder_42: -1639250413
+      Rechts_onder_9: 1185762121
+      Rechts_onder_4: 1437121093
+      Rechts_onder_33: 1518649203
+      Rechts_onder_35: -1404094903
+      Rechts_onder_7: -1674019404
+      Rechts_onder_11: -308845310
+      Rechts_onder_6: -1516057806
+      Rechts_onder_1: -1018758987
+      Rechts_onder_27: 898232784
+      Rechts_onder_10: -1428982378
+      Rechts_onder_26: 1879617099
+      Rechts_onder_28: -1317729055
+      Rechts_onder_29: 148653966
+      Rechts_onder_13: 82296712
+      Rechts_onder_30: -2076404049
+      Rechts_onder_31: 2010787262
+      Rechts_onder_44: 1592182083
+      Rechts_onder_0: -283311742
+      Rechts_onder_23: -1701234896
+      Rechts_onder_17: 1477959477
+      Rechts_onder_8: 19959562
+      Rechts_onder_12: 1894783918
+      Rechts_onder_37: 1406215937
+      Rechts_onder_22: 432343448
+      Rechts_onder_18: -1626695100
+      Rechts_onder_34: 1458599501
+      Rechts_onder_36: 2136144576
+      Rechts_onder_43: -1770788199
+      Rechts_onder_20: -762089888
+      Rechts_onder_16: 358277530
+      Rechts_onder_19: 169136171
+      Rechts_onder_14: -1783267335
+      Rechts_onder_2: 1783908792
+      Rechts_onder_21: -755638931
+      Rechts_onder_32: -676595882
+      Rechts_onder_5: -1472898042
+      Rechts_onder_38: -578954406
+      Rechts_onder_39: -1211584126
+      Rechts_onder_25: 1590886197
+      Rechts_onder_15: -1097929901
+      Rechts_onder_24: -121309039
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
