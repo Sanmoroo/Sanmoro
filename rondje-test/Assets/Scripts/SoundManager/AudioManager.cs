@@ -4,11 +4,23 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    //Insert dog meme; I have no idea what I'm doing ((( Just folowed a tutorial ,., )))
+    // Added to the game object
     public Sound[] sounds;
+    public static AudioManager instance;
     
     void Awake()
     {
+        // Make sure there is an AudioManager object initialized.
+        if (instance == null)
+            instance = this;
+        else
+        {
+            Destroy(gameObject);
+        }
+
+        DontDestroyOnLoad(gameObject);
+
+        // Options for each sound in the sound list.
         foreach (Sound s in sounds)
         {
             s.source = gameObject.AddComponent<AudioSource>();
@@ -19,9 +31,14 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    // Find the clip that matches the name passed as an argument and play it.
     public void Play (string name)
     {
        Sound s = Array.Find(sounds, sound => sound.name == name);
-       s.source.Play();
+
+       if (!s.source.isPlaying)
+       {
+            s.source.Play();
+       }
     }
 }

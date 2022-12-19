@@ -405,8 +405,8 @@ MonoBehaviour:
   sounds:
   - name: Rechts_Onder
     clip: {fileID: 8300000, guid: 53523dc492e9b1349b63215d68321ad0, type: 3}
-    volume: 0.239
-    pitch: 0
+    volume: 1
+    pitch: 1
     source: {fileID: 0}
 --- !u!4 &633456904
 Transform:
@@ -633,8 +633,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203708094}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.0018, z: 0}
-  m_LocalScale: {x: 0.9268414, y: 0.9268414, z: 0.9268414}
+  m_LocalPosition: {x: -0.0167, y: 0.0018, z: 0}
+  m_LocalScale: {x: 0.92823166, y: 0.9268414, z: 0.9268414}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

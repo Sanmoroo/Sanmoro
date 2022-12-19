@@ -7,18 +7,21 @@ public abstract class InteractableSprite : MonoBehaviour
     // Won't change
     private Renderer spriteRend;
     private Animator anim;
+    private AudioManager aud;
     private DateTime prevTriggered;
     private bool interactionReady = true;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
     public abstract string AttachedAnimation { get; }
+    public abstract string AttachedSound { get; }
 
     // Start is called before the first frame update
     public void Start()
     {
         spriteRend = GetComponent<Renderer>();
         anim = gameObject.GetComponent<Animator>();
+        aud = FindObjectOfType<AudioManager>();
 
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
@@ -41,6 +44,7 @@ public abstract class InteractableSprite : MonoBehaviour
 
         StartCoroutine(FadeTo(1.0f, TimeToFade));
         PlayAnimation();
+        PlaySound();
         interactionReady = false;
     }
 
@@ -62,6 +66,14 @@ public abstract class InteractableSprite : MonoBehaviour
         if (interactionReady)
         {
             anim.Play(AttachedAnimation, 0, 0f);
+        }
+    }
+
+    public void PlaySound()
+    {
+        if (interactionReady)
+        {
+            aud.Play(AttachedSound);
         }
     }
 

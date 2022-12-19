@@ -1,10 +1,10 @@
 using UnityEngine.Audio;
 using UnityEngine;
 
+// This class describes an audio clip that we want to add and makes the below options available to change on that clip
 [System.Serializable]
 public class Sound 
 {
-    //Additional class the Audiomanager that makes us change the data that is stored within
     public string name;
     public AudioClip clip;
 
