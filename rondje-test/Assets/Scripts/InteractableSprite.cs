@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using Tobii.Gaming;
 
 public abstract class InteractableSprite : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public abstract class InteractableSprite : MonoBehaviour
     private Renderer spriteRend;
     private Animator anim;
     private AudioManager aud;
+    public GazeAware _gazeAware;
+    // TODO: Set this per sprite
     private DateTime prevTriggered;
     private bool interactionReady = true;
 
@@ -15,13 +18,20 @@ public abstract class InteractableSprite : MonoBehaviour
     public abstract float TimeToFade { get; }
     public abstract string AttachedAnimation { get; }
     public abstract string AttachedSound { get; }
+    public abstract string AttachedTrigger { get; }
 
     // Start is called before the first frame update
     public void Start()
     {
+        // Initializes gaze data provider with default settings.
+        TobiiAPI.Start(null);
+       
         spriteRend = GetComponent<Renderer>();
         anim = gameObject.GetComponent<Animator>();
         aud = FindObjectOfType<AudioManager>();
+        _gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
+
+        Debug.Log(GameObject.Find(AttachedTrigger));
 
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
@@ -33,10 +43,13 @@ public abstract class InteractableSprite : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (_gazeAware.HasGazeFocus)
+        {
+            StartInteraction();
+        }
     }
 
-    public void OnMouseEnter()
+    public void StartInteraction()
     {
         // If enough time has elapsed this check will pass
         if (!CanBeTriggered()) 
@@ -46,9 +59,15 @@ public abstract class InteractableSprite : MonoBehaviour
         PlayAnimation();
         PlaySound();
         interactionReady = false;
+
+        StartCoroutine(ResetInteraction());
     }
 
-    public IEnumerator OnMouseExit()
+    /// <summary>
+    /// After a delay, resets the last time the interaction was triggered and fades out the sprite, then sets the interaction to be ready again.
+    /// </summary>
+    /// <returns></returns>
+    public IEnumerator ResetInteraction()
     {
         if (!interactionReady)
         {
