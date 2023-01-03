@@ -10,8 +10,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private Animator anim;
     private AudioManager aud;
     public GazeAware _gazeAware;
-    // TODO: Set this per sprite
-    private DateTime prevTriggered;
     private bool interactionReady = true;
 
     // Overridable in child classes
@@ -19,6 +17,8 @@ public abstract class InteractableSprite : MonoBehaviour
     public abstract string AttachedAnimation { get; }
     public abstract string AttachedSound { get; }
     public abstract string AttachedTrigger { get; }
+    // Make sure when the game initially starts we can trigger the fade.
+    public abstract DateTime PrevTriggered { get; set; }
 
     // Start is called before the first frame update
     public void Start()
@@ -35,9 +35,8 @@ public abstract class InteractableSprite : MonoBehaviour
 
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
+        PrevTriggered = DateTime.Now.AddSeconds(-10);
 
-        // Make sure when the game initially starts we can trigger the fade.
-        prevTriggered = DateTime.Now.AddSeconds(-10);
     }
 
     // Update is called once per frame
@@ -72,7 +71,7 @@ public abstract class InteractableSprite : MonoBehaviour
         if (!interactionReady)
         {
             yield return new WaitForSeconds(7);
-            prevTriggered = DateTime.Now;
+            PrevTriggered = DateTime.Now;
             StartCoroutine(FadeTo(0.0f, TimeToFade));
             // Set fadeReady back to true once the sprite has faded out so we can retrigger.
             interactionReady = true;
@@ -102,7 +101,7 @@ public abstract class InteractableSprite : MonoBehaviour
     /// <returns>boolean</returns>
     public bool CanBeTriggered()
     {
-        TimeSpan timeDifference = DateTime.Now - prevTriggered;
+        TimeSpan timeDifference = DateTime.Now - PrevTriggered;
         if (timeDifference.Seconds > 10)
             return true;
 
