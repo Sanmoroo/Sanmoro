@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.tobii.gaming.sdk": {
-      "version": "file:D:/zjacky/Sanmoro/Sanmoro/Tobii/SDK",
+      "version": "file:../Tobii/SDK",
       "depth": 0,
       "source": "local",
       "dependencies": {}
