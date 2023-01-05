@@ -11,7 +11,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private AudioManager aud;
     private UIManager uiManager;
     public GazeAware gazeAware;
-    private int score;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
@@ -32,7 +31,6 @@ public abstract class InteractableSprite : MonoBehaviour
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
         uiManager = FindObjectOfType<UIManager>();
         InteractionReady = true;
-
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
     }
@@ -60,8 +58,7 @@ public abstract class InteractableSprite : MonoBehaviour
 
     public void IncrementScore()
     {
-        score += 1;
-        uiManager.UpdateScore(score);
+        uiManager.UpdateScore();
     }
 
     public void PlayAnimation()
