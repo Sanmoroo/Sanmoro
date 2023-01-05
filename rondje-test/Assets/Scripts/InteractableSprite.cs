@@ -11,7 +11,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private AudioManager aud;
     private UIManager uiManager;
     public GazeAware gazeAware;
-    private bool interactionReady = true;
     private int score;
 
     // Overridable in child classes
@@ -19,8 +18,7 @@ public abstract class InteractableSprite : MonoBehaviour
     public abstract string AttachedAnimation { get; }
     public abstract string AttachedSound { get; }
     public abstract string AttachedTrigger { get; }
-    // Make sure when the game initially starts we can trigger the fade.
-    public abstract DateTime PrevTriggered { get; set; }
+    public abstract bool InteractionReady { get; set; }
 
     // Start is called before the first frame update
     public void Start()
@@ -33,11 +31,10 @@ public abstract class InteractableSprite : MonoBehaviour
         aud = FindObjectOfType<AudioManager>();
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
         uiManager = FindObjectOfType<UIManager>();
+        InteractionReady = true;
 
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
-        PrevTriggered = DateTime.Now.AddSeconds(-10);
-
     }
 
     // Update is called once per frame
@@ -51,16 +48,14 @@ public abstract class InteractableSprite : MonoBehaviour
 
     public void StartInteraction()
     {
-        // If enough time has elapsed this check will pass
-        if (!CanBeTriggered()) 
-            return;
-
-        StartCoroutine(FadeTo(1.0f, TimeToFade));
-        PlayAnimation();
-        PlaySound();
-        IncrementScore();
-        interactionReady = false;
-        StartCoroutine(ResetInteraction());
+        if (InteractionReady)
+        {
+            StartCoroutine(FadeTo(1.0f, TimeToFade));
+            PlayAnimation();
+            PlaySound();
+            IncrementScore();
+            InteractionReady = false;
+        }
     }
 
     public void IncrementScore()
@@ -69,50 +64,14 @@ public abstract class InteractableSprite : MonoBehaviour
         uiManager.UpdateScore(score);
     }
 
-    /// <summary>
-    /// After a delay, resets the last time the interaction was triggered and fades out the sprite, then sets the interaction to be ready again.
-    /// </summary>
-    /// <returns></returns>
-    public IEnumerator ResetInteraction()
-    {
-        if (!interactionReady)
-        {
-            yield return new WaitForSeconds(7);
-            PrevTriggered = DateTime.Now;
-            StartCoroutine(FadeTo(0.0f, TimeToFade));
-            // Set fadeReady back to true once the sprite has faded out so we can retrigger.
-            interactionReady = true;
-        }
-    }
-
     public void PlayAnimation()
     {
-        // Ensures the animation only plays once per fade
-        if (interactionReady)
-        {
-            anim.Play(AttachedAnimation, 0, 0f);
-        }
+         anim.Play(AttachedAnimation, 0, 0f);
     }
 
     public void PlaySound()
     {
-        if (interactionReady)
-        {
-            aud.Play(AttachedSound);
-        }
-    }
-
-    /// <summary>
-    /// Returns true if last fade happened more than 10 seconds ago, false if not
-    /// </summary>
-    /// <returns>boolean</returns>
-    public bool CanBeTriggered()
-    {
-        TimeSpan timeDifference = DateTime.Now - PrevTriggered;
-        if (timeDifference.Seconds > 10)
-            return true;
-
-        return false;
+         aud.Play(AttachedSound);
     }
 
     /// <summary>

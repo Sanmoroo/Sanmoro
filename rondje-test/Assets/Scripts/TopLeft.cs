@@ -7,5 +7,5 @@ public class TopLeft : InteractableSprite
     public override string AttachedAnimation => "test";
     public override string AttachedSound => "Rechts_Onder";
     public override string AttachedTrigger => "TopLeftTrigger";
-    public override DateTime PrevTriggered { get; set; }
+    public override bool InteractionReady { get; set; }
 }
