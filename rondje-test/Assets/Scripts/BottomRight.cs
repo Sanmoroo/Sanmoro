@@ -7,5 +7,5 @@ public class BottomRight : InteractableSprite
     public override string AttachedAnimation => "test_links_onder";
     public override string AttachedSound => "Rechts_Onder";
     public override string AttachedTrigger => "BottomRightTrigger";
-    public override bool InteractionReady { get; set; }
+    public override bool UntriggeredInteraction { get; set; }
 }

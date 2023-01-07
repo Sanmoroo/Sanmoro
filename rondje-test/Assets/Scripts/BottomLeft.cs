@@ -6,5 +6,5 @@ public class BottomLeft : InteractableSprite
     public override string AttachedAnimation => "test";
     public override string AttachedSound => "Rechts_Onder";
     public override string AttachedTrigger => "BottomLeftTrigger";
-    public override bool InteractionReady { get; set; }
+    public override bool UntriggeredInteraction { get; set; }
 }

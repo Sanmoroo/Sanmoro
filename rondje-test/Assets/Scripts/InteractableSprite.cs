@@ -10,14 +10,15 @@ public abstract class InteractableSprite : MonoBehaviour
     private Animator anim;
     private AudioManager aud;
     private UIManager uiManager;
-    public GazeAware gazeAware;
+    private GazeAware gazeAware;
+    private DateTime lastTriggered; 
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
     public abstract string AttachedAnimation { get; }
     public abstract string AttachedSound { get; }
     public abstract string AttachedTrigger { get; }
-    public abstract bool InteractionReady { get; set; }
+    public abstract bool UntriggeredInteraction { get; set; }
 
     // Start is called before the first frame update
     public void Start()
@@ -25,12 +26,16 @@ public abstract class InteractableSprite : MonoBehaviour
         // Initializes gaze data provider with default settings.
         TobiiAPI.Start(null);
        
+        // Get neccessary objects.
         spriteRend = GetComponent<Renderer>();
         anim = gameObject.GetComponent<Animator>();
         aud = FindObjectOfType<AudioManager>();
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
         uiManager = FindObjectOfType<UIManager>();
-        InteractionReady = true;
+
+        // Each sprite starts with their interaction untriggered
+        UntriggeredInteraction = true;
+
         // Set alpha to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
     }
@@ -44,16 +49,32 @@ public abstract class InteractableSprite : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Performs all the necessary actions for a player interaction.
+    /// </summary>
     public void StartInteraction()
     {
-        if (InteractionReady)
+        if (UntriggeredInteraction && CooldownExpired())
         {
             StartCoroutine(FadeTo(1.0f, TimeToFade));
             PlayAnimation();
             PlaySound();
             IncrementScore();
-            InteractionReady = false;
+            UntriggeredInteraction = false;
+            lastTriggered = DateTime.Now;
         }
+    }
+
+    /// <summary>
+    /// Returns true if last fade happened more than 10 seconds ago, false if not
+    /// </summary>
+    public bool CooldownExpired()
+    {
+        TimeSpan timeDifference = DateTime.Now - lastTriggered;
+        if (timeDifference.Seconds > 5)
+            return true;
+
+        return false;
     }
 
     public void IncrementScore()
