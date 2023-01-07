@@ -11,7 +11,9 @@ public abstract class InteractableSprite : MonoBehaviour
     private AudioManager aud;
     private UIManager uiManager;
     private GazeAware gazeAware;
-    private DateTime lastTriggered; 
+    private static DateTime lastTriggered;
+    // Change the number in add seconds to change intro length
+    private static DateTime introFinished;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
@@ -36,8 +38,14 @@ public abstract class InteractableSprite : MonoBehaviour
         // Each sprite starts with their interaction untriggered
         UntriggeredInteraction = true;
 
+        //TODO: Set this to something specific
+        lastTriggered = DateTime.Now;
+
+        // Change number in add seconds to increase the delay between the game starting and interactions being possible
+        introFinished = DateTime.Now.AddSeconds(10);
+
         // Set alpha to be 0 when the game starts
-        spriteRend.material.color = new Color(1, 1, 1, 0);
+        spriteRend.material.color = new Color(1, 1, 1, 1);
     }
 
     // Update is called once per frame
@@ -54,7 +62,7 @@ public abstract class InteractableSprite : MonoBehaviour
     /// </summary>
     public void StartInteraction()
     {
-        if (UntriggeredInteraction && CooldownExpired())
+        if (UntriggeredInteraction && CooldownExpired() && IntroFinished())
         {
             StartCoroutine(FadeTo(1.0f, TimeToFade));
             PlayAnimation();
@@ -65,13 +73,21 @@ public abstract class InteractableSprite : MonoBehaviour
         }
     }
 
+    public bool IntroFinished()
+    {
+        if (DateTime.Now > introFinished)
+            return true;
+
+        return false;
+    }
+
     /// <summary>
     /// Returns true if last fade happened more than 10 seconds ago, false if not
     /// </summary>
     public bool CooldownExpired()
     {
         TimeSpan timeDifference = DateTime.Now - lastTriggered;
-        if (timeDifference.Seconds > 5)
+        if (timeDifference.TotalSeconds > 8)
             return true;
 
         return false;
