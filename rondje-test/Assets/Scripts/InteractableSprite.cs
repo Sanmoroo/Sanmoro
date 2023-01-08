@@ -12,7 +12,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private UIManager uiManager;
     private GazeAware gazeAware;
     private static DateTime lastTriggered;
-    // Change the number in add seconds to change intro length
     private static DateTime introFinished;
 
     // Overridable in child classes
@@ -44,7 +43,7 @@ public abstract class InteractableSprite : MonoBehaviour
         // Change number in add seconds to increase the delay between the game starting and interactions being possible
         introFinished = DateTime.Now.AddSeconds(10);
 
-        // Set alpha to be 0 when the game starts
+        // Set alpha of sprites to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
     }
 
