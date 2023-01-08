@@ -45,7 +45,7 @@ public abstract class InteractableSprite : MonoBehaviour
         introFinished = DateTime.Now.AddSeconds(10);
 
         // Set alpha to be 0 when the game starts
-        spriteRend.material.color = new Color(1, 1, 1, 1);
+        spriteRend.material.color = new Color(1, 1, 1, 0);
     }
 
     // Update is called once per frame
@@ -55,6 +55,11 @@ public abstract class InteractableSprite : MonoBehaviour
         {
             StartInteraction();
         }
+    }
+
+    private void OnMouseEnter()
+    {
+        StartInteraction();
     }
 
     /// <summary>
