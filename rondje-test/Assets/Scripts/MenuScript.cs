@@ -9,6 +9,7 @@ public class MenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        TobiiAPI.Start(null);
         gazeAware = GameObject.Find("PlayButtonTrigger").GetComponent<GazeAware>();
     }
 
