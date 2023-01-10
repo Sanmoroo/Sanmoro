@@ -57,7 +57,8 @@ public abstract class InteractableSprite : MonoBehaviour
             StartInteraction();
         }
 
-        if (!userPresence.IsUserPresent())
+        UserPresence userPresence = TobiiAPI.GetUserPresence();
+        if (userPresence == UserPresence.NotPresent)
         {
             SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
         }

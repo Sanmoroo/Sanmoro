@@ -6,10 +6,10 @@ public class MenuManager : MonoBehaviour
 {
     private GazeAware gazeAware;
 
-    private void Awake()
-    {
-        DontDestroyOnLoad(this.gameObject);
-    }
+   // private void Awake()
+    //{
+     //   DontDestroyOnLoad(this.gameObject);
+  //  }
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +23,13 @@ public class MenuManager : MonoBehaviour
     {
         if (gazeAware.HasGazeFocus)
         {
-            SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Additive);
+            SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
         }
     }
 
     private void OnMouseEnter()
     {
         Debug.Log("hello");
-        SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
     }
 }
