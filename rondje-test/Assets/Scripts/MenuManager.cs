@@ -2,9 +2,14 @@ using Tobii.Gaming;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuScript : MonoBehaviour
+public class MenuManager : MonoBehaviour
 {
     private GazeAware gazeAware;
+
+    private void Awake()
+    {
+        DontDestroyOnLoad(this.gameObject);
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -18,17 +23,13 @@ public class MenuScript : MonoBehaviour
     {
         if (gazeAware.HasGazeFocus)
         {
-            LoadGameScene();
+            SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Additive);
         }
     }
 
     private void OnMouseEnter()
     {
-        LoadGameScene();
-    }
-
-    private void LoadGameScene()
-    {
-        SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
+        Debug.Log("hello");
+        SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Additive);
     }
 }

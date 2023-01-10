@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using UnityEngine;
 using Tobii.Gaming;
+using UnityEngine.SceneManagement;
 
 public abstract class InteractableSprite : MonoBehaviour
 {
@@ -13,6 +14,7 @@ public abstract class InteractableSprite : MonoBehaviour
     private GazeAware gazeAware;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
+    private UserPresence userPresence;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
@@ -53,6 +55,11 @@ public abstract class InteractableSprite : MonoBehaviour
         if (gazeAware.HasGazeFocus)
         {
             StartInteraction();
+        }
+
+        if (!userPresence.IsUserPresent())
+        {
+            SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
         }
     }
 
