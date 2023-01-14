@@ -14,7 +14,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private GazeAware gazeAware;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
-    private static bool userNotPresent;
     private static float userNotPresentTimer;
     private static float allowedAbsence;
 
@@ -79,6 +78,7 @@ public abstract class InteractableSprite : MonoBehaviour
             {
                 SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
             }
+
         } else if (userPresence == UserPresence.Present)
         {
             userNotPresentTimer = 0;
