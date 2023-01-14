@@ -10,12 +10,10 @@ public abstract class InteractableSprite : MonoBehaviour
     private Renderer spriteRend;
     private Animator anim;
     private AudioManager aud;
-    private UIManager uiManager;
+    private GameSceneManager gameSceneManager;
     private GazeAware gazeAware;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
-    private static float userNotPresentTimer;
-    private static float allowedAbsence;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
@@ -27,15 +25,12 @@ public abstract class InteractableSprite : MonoBehaviour
     // Start is called before the first frame update
     public void Start()
     {
-        // Initializes gaze data provider with default settings.
-        TobiiAPI.Start(null);
-       
         // Get neccessary objects.
         spriteRend = GetComponent<Renderer>();
         anim = gameObject.GetComponent<Animator>();
         aud = FindObjectOfType<AudioManager>();
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
-        uiManager = FindObjectOfType<UIManager>();
+        gameSceneManager = FindObjectOfType<GameSceneManager>();
 
         // Each sprite starts with their interaction untriggered
         UntriggeredInteraction = true;
@@ -45,9 +40,6 @@ public abstract class InteractableSprite : MonoBehaviour
 
         // Change number in add seconds to increase the delay between the game starting and interactions being possible
         introFinished = DateTime.Now.AddSeconds(10);
-
-        // Change number to decide how long the user is allowed to be absent before being sent back to menu
-        allowedAbsence = 5f;
 
         // Set alpha of sprites to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
@@ -59,29 +51,6 @@ public abstract class InteractableSprite : MonoBehaviour
         if (gazeAware.HasGazeFocus)
         {
             StartInteraction();
-        }
-
-        TrackUserPresence();
-    }
-
-    /// <summary>
-    /// Determines whether user has been lost by the eye tracker for a sufficient amount of time to be returned to the menu.
-    /// </summary>
-    private void TrackUserPresence()
-    {
-        UserPresence userPresence = TobiiAPI.GetUserPresence();
-        if (userPresence == UserPresence.NotPresent)
-        {
-            userNotPresentTimer += Time.deltaTime;
-
-            if (userNotPresentTimer > allowedAbsence)
-            {
-                SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
-            }
-
-        } else if (userPresence == UserPresence.Present)
-        {
-            userNotPresentTimer = 0;
         }
     }
 
@@ -128,7 +97,7 @@ public abstract class InteractableSprite : MonoBehaviour
 
     public void IncrementScore()
     {
-        uiManager.UpdateScore();
+        gameSceneManager.UpdateScore();
     }
 
     public void PlayAnimation()
