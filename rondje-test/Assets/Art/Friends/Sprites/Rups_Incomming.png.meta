@@ -1,0 +1,1125 @@
+fileFormatVersion: 2
+guid: 49df75cadadd1ef47a8566c2e9dc3780
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rups_Incomming_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd6b032661a97641bf39d53f72f515b
+      internalID: 167885328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_1
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659a0f6c29a83e54992e7dbbf2210f9e
+      internalID: -1039247954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_2
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74726c4780fa8194b85eee6d878bb249
+      internalID: 632931508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_3
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b209cf719b53d2046877f15d593437a8
+      internalID: 1231556141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_4
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1382259a467d4047bafbbfd0c23a133
+      internalID: 1211612931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_5
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e851acb98ca2f4a9ade624bb5f6d64
+      internalID: 686698456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_6
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5277a8f14eb894190c8a2c26e3c2da
+      internalID: 2112537209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_7
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 13965
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81601295eef47b14f9fc82a86ab8ca49
+      internalID: 931108715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19f6ab1b369e36e49b0204cc38972125
+      internalID: -1413201520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_9
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff940df26e828e4d943cf63d39c839c
+      internalID: 2041582326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_10
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe955c0e907d2874082055a7c1d43873
+      internalID: 921229478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_11
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce37c9b430d1ef45b960b31351cca02
+      internalID: -1689057329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_12
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ab61ea52e03b542892ddfbb81e8b95
+      internalID: 1438242685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_13
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b225f7edf808e744bc49b2c5a84fe5b
+      internalID: 405127540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_14
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d39031a81e1b6841b0819e52e7e7f24
+      internalID: -1423988278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_15
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 11546
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163534a57ebcae54aaf4bcb127187209
+      internalID: 960361210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc62f3bec3f89fe4db08cd908f7f2f64
+      internalID: -1920072700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_17
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce82344de3cd34498ac564fe1906ed1
+      internalID: 175194253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_18
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21f7b28141017a438af76012b817c81
+      internalID: -1451808605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_19
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89d6d7fa8e88934bb1e40d1414c3dc2
+      internalID: 650419875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_20
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb90a53ce74d484fb109c368ef806e4
+      internalID: 1907271244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_21
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 433ba75d8927c6a4b800d00539ab528c
+      internalID: 1026547144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_22
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c81c7f7bdd7d940a67310cf39bff48
+      internalID: 1129119220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_23
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 9127
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d00829645107cb84994b34e81061f71d
+      internalID: 216989200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0587ebe83a87b7242bd63b40265ecb54
+      internalID: 1051025411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_25
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1c024db0f29c74e8c7b76d599ba0f4
+      internalID: -1087987776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_26
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6fc6935dc5c824986337146975a189
+      internalID: 1815995099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_27
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce8dc218aa02014996f1646f38bc562
+      internalID: -1054437752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_28
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a59dba3cb28f64b8bb6e1596274ffd
+      internalID: 192888881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_29
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb27c33b359344b489821c3f692d3d98
+      internalID: -2030340135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_30
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85ad94f8ec12939488807f67990ad8d9
+      internalID: -1127426137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_31
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 6708
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948681e94be9f94c8b0f7e6238c7860
+      internalID: 2056941656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f607024b10ee16a4e8c7f4164dbd5f28
+      internalID: 1665888624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_33
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afeb62df8b5a7af4495ced993640c44c
+      internalID: -1542112131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_34
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e8f566471fa884a96c678050052ff7
+      internalID: -846306152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_35
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb9cb69b5e78024db8dae8ca6ff31fa
+      internalID: 526677749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_36
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c9a32874f978145b494034b8079b35
+      internalID: 836952610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_37
+      rect:
+        serializedVersion: 2
+        x: 10240
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3adfb90dd0532844d9ad76488fc03736
+      internalID: -944649173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_38
+      rect:
+        serializedVersion: 2
+        x: 12288
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6a46a5a31738044e9fce1af5acbf164
+      internalID: 371044214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_39
+      rect:
+        serializedVersion: 2
+        x: 14336
+        y: 4289
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df00efb20320a874a96cc33034a3e487
+      internalID: -1949217088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e26ff9704e3fe54fbb0429785459d9e
+      internalID: -2073130165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_41
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c13eb4977eb223b47bf06b4bc04d6bad
+      internalID: 766810580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_42
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a7761f59b4cd324a9f133f02c0a08bf
+      internalID: 1921587381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_43
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e022dedfea10f54099f7ad41e19972b
+      internalID: -1297691390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rups_Incomming_44
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1870
+        width: 2048
+        height: 2419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c652c7ac0f08e344988f24a9b53fa1d
+      internalID: 610876704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rups_Incomming_26: 1815995099
+      Rups_Incomming_43: -1297691390
+      Rups_Incomming_19: 650419875
+      Rups_Incomming_25: -1087987776
+      Rups_Incomming_18: -1451808605
+      Rups_Incomming_7: 931108715
+      Rups_Incomming_16: -1920072700
+      Rups_Incomming_21: 1026547144
+      Rups_Incomming_37: -944649173
+      Rups_Incomming_27: -1054437752
+      Rups_Incomming_44: 610876704
+      Rups_Incomming_9: 2041582326
+      Rups_Incomming_30: -1127426137
+      Rups_Incomming_24: 1051025411
+      Rups_Incomming_12: 1438242685
+      Rups_Incomming_33: -1542112131
+      Rups_Incomming_17: 175194253
+      Rups_Incomming_38: 371044214
+      Rups_Incomming_22: 1129119220
+      Rups_Incomming_31: 2056941656
+      Rups_Incomming_10: 921229478
+      Rups_Incomming_3: 1231556141
+      Rups_Incomming_36: 836952610
+      Rups_Incomming_8: -1413201520
+      Rups_Incomming_2: 632931508
+      Rups_Incomming_4: 1211612931
+      Rups_Incomming_29: -2030340135
+      Rups_Incomming_40: -2073130165
+      Rups_Incomming_34: -846306152
+      Rups_Incomming_35: 526677749
+      Rups_Incomming_28: 192888881
+      Rups_Incomming_20: 1907271244
+      Rups_Incomming_11: -1689057329
+      Rups_Incomming_23: 216989200
+      Rups_Incomming_41: 766810580
+      Rups_Incomming_39: -1949217088
+      Rups_Incomming_1: -1039247954
+      Rups_Incomming_13: 405127540
+      Rups_Incomming_5: 686698456
+      Rups_Incomming_42: 1921587381
+      Rups_Incomming_6: 2112537209
+      Rups_Incomming_0: 167885328
+      Rups_Incomming_15: 960361210
+      Rups_Incomming_32: 1665888624
+      Rups_Incomming_14: -1423988278
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
