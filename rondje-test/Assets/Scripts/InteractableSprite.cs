@@ -10,7 +10,6 @@ public abstract class InteractableSprite : MonoBehaviour
     private Renderer spriteRend;
     private Animator anim;
     private AudioManager aud;
-    private GameSceneManager gameSceneManager;
     private GazeAware gazeAware;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
@@ -30,7 +29,6 @@ public abstract class InteractableSprite : MonoBehaviour
         anim = gameObject.GetComponent<Animator>();
         aud = FindObjectOfType<AudioManager>();
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
-        gameSceneManager = FindObjectOfType<GameSceneManager>();
 
         // Each sprite starts with their interaction untriggered
         UntriggeredInteraction = true;
@@ -97,7 +95,7 @@ public abstract class InteractableSprite : MonoBehaviour
 
     public void IncrementScore()
     {
-        gameSceneManager.UpdateScore();
+        GameSceneManager.Instance().UpdateScore();
     }
 
     public void PlayAnimation()

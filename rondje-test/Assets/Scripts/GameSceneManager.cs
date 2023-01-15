@@ -9,15 +9,20 @@ public class GameSceneManager : MonoBehaviour
     public static GameSceneManager instance;
 
     // Presence tracking
-    private static float userNotPresentTimer;
-    private static float allowedAbsence;
+    private float userNotPresentTimer;
+    private float allowedAbsence;
 
     // Score
     [SerializeField]
     private TextMeshProUGUI scoreText;
-    private static int score = 0;
-    private static int maxScore = 6;
-    private static int waitBeforeMenu; 
+    private int score = 0;
+    private int maxScore = 6;
+    private int waitBeforeMenu;
+
+    public static GameSceneManager Instance()
+    {
+        return instance;
+    }
 
     void Awake()
     {
@@ -37,11 +42,11 @@ public class GameSceneManager : MonoBehaviour
     void Start()
     {
         // Change number to decide how long the user is allowed to be absent before being sent back to menu
-        allowedAbsence = 5f;
+        allowedAbsence = 20f;
 
         // Change number to decide how long the game should wait after the user finds all friends before being sent
         // back to menu.
-        waitBeforeMenu = 5;
+        waitBeforeMenu = 15;
 
         scoreText.text = $"Vrienden gevonden: {score} / {maxScore}";
     }
