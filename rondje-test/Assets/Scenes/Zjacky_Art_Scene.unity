@@ -1492,7 +1492,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Fly
     clip: {fileID: 8300000, guid: bb731fd917ee538419bbe02e22641a9c, type: 3}
-    volume: 0.59
+    volume: 0.516
     pitch: 1
     source: {fileID: 0}
   - name: Mier
@@ -1502,7 +1502,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: Ster
     clip: {fileID: 8300000, guid: fb8e73c61e1690f44bb06ac61478a8ec, type: 3}
-    volume: 0.667
+    volume: 0.493
     pitch: 1
     source: {fileID: 0}
   - name: Kat
