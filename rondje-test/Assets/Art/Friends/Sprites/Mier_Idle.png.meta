@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -115,7 +115,322 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Mier_Idle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3421
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f61ac7548cda7f428753df0b4b05ab0
+      internalID: -714728143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 3421
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d93e54a71528e4783088c6b90e914e
+      internalID: -1059175722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 3421
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c905dbdc809548abc7a4885ebaf22
+      internalID: -1746843451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 3421
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7e9eadc7c487f40b2512a69d820a39
+      internalID: 1594477297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2746
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c8de13093733840a26eebfd18e7ba8
+      internalID: -397760671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2746
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd16f29e92b2df4a8ef88a14eee39e0
+      internalID: 1343551624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2746
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e9946e2ab39b0a4783f0b908d8cd86e
+      internalID: 1718481440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2746
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0c7faa9774a4f4891c0a85f92fb443
+      internalID: 322887778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2071
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18526c08abc415e4194a4bdaaee1e309
+      internalID: -2059543176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2071
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f978d752a0a2dd34e8c86d432572029b
+      internalID: -738067043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2071
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d8e40a5b3009b4b9b66574c213f682
+      internalID: 253993092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2071
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710f79e0ad30feb4e87869fa39b95c3c
+      internalID: 269252100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1396
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41f2f117f72c5ed44bd8f046a4dddbba
+      internalID: -20630203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_13
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1396
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0decbd8d9df44554a8e432931d7f6d3d
+      internalID: -2101262878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mier_Idle_14
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1396
+        width: 900
+        height: 675
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6918793f67c57f4396b61184c031ff7
+      internalID: 350616758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +441,22 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mier_Idle_4: -397760671
+      Mier_Idle_0: -714728143
+      Mier_Idle_6: 1718481440
+      Mier_Idle_1: -1059175722
+      Mier_Idle_9: -738067043
+      Mier_Idle_3: 1594477297
+      Mier_Idle_12: -20630203
+      Mier_Idle_8: -2059543176
+      Mier_Idle_13: -2101262878
+      Mier_Idle_5: 1343551624
+      Mier_Idle_7: 322887778
+      Mier_Idle_10: 253993092
+      Mier_Idle_14: 350616758
+      Mier_Idle_2: -1746843451
+      Mier_Idle_11: 269252100
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
