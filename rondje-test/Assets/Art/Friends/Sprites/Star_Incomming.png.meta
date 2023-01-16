@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d8f8426309a093041902fe0727c568ea
+guid: c21adeb090d05db45b5ac867e8db62d2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -117,13 +117,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mier_Incomming_0
+      name: Star_Incomming_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 3421
-        width: 900
-        height: 675
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +131,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c75367eb19ffbe9418d7dba9de53b529
-      internalID: 126199349
+      spriteID: 3ee6b5c238d684c488939b8df6759ab0
+      internalID: -1894838173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_1
+      name: Star_Incomming_1
       rect:
         serializedVersion: 2
-        x: 900
-        y: 3421
-        width: 900
-        height: 675
+        x: 700
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +152,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9deb8ea7a30b644280e87fdc14d689a
-      internalID: -1485059637
+      spriteID: 97bf6202b43194a45a59b401db023fcf
+      internalID: -2048922582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_2
+      name: Star_Incomming_2
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 3421
-        width: 900
-        height: 675
+        x: 1400
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +173,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b84830aa6a35ce24a8d3bbc6813a1787
-      internalID: 1709838603
+      spriteID: 13df5bc93064c42488ce85146d7c523a
+      internalID: 1741523520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_3
+      name: Star_Incomming_3
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 3421
-        width: 900
-        height: 675
+        x: 2100
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +194,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bb8c478f84841041a3677141505a6b4
-      internalID: -220681113
+      spriteID: 097734fc6e63fe74692b601d63b17dbf
+      internalID: -1234177090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_4
+      name: Star_Incomming_4
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 3421
-        width: 900
-        height: 675
+        x: 2800
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +215,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a979ca62eb176444aaf9ba98100caacb
-      internalID: 296041439
+      spriteID: 364e059335c24c646a305832c8294525
+      internalID: -912660618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_5
+      name: Star_Incomming_5
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 3421
-        width: 900
-        height: 675
+        x: 3500
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15a350c7fe7fd7b409938ab5cd7d6043
-      internalID: 1569652558
+      spriteID: 9d11ed6d6da59fd40a6b321cd69e1ff5
+      internalID: 2006144454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_6
+      name: Star_Incomming_6
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 3421
-        width: 900
-        height: 675
+        x: 4200
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b4a2d803791c364198ce4d5b3e5dab5
-      internalID: 1163139956
+      spriteID: 953383770595f7445bfed7d35e414c5b
+      internalID: -1511330831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_7
+      name: Star_Incomming_7
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 3358
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9689a4ce30c85a24a9a8564cd3fe1822
+      internalID: 1323556681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_8
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 3358
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f2f34661e22e448b21bb038caea0f9
+      internalID: 1469105549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_9
       rect:
         serializedVersion: 2
         x: 6300
-        y: 3421
-        width: 900
-        height: 675
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +320,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 073a185ec7f23dc43b9c3fddcfa7ab28
-      internalID: -721836449
+      spriteID: e9ab5d506f4d0a24ea86f3b77174c439
+      internalID: 919354129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_8
+      name: Star_Incomming_10
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 3421
-        width: 900
-        height: 675
+        x: 7000
+        y: 3358
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,20 +341,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4eb6069212eeb11458afd969bc96fdad
-      internalID: 440446319
+      spriteID: 3a5f02232ae35114d9a43eea2ea60beb
+      internalID: 1970325742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_9
+      name: Star_Incomming_11
       rect:
         serializedVersion: 2
         x: 0
-        y: 2746
-        width: 900
-        height: 675
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -320,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c42562186ef0b04789fe4c9f2c11a32
-      internalID: -916593606
+      spriteID: f4fa45d5ec6cd7d4fb35eb104fb669d3
+      internalID: 481912618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_10
+      name: Star_Incomming_12
       rect:
         serializedVersion: 2
-        x: 900
-        y: 2746
-        width: 900
-        height: 675
+        x: 700
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -341,20 +383,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfab9a62dfda2f7449159d3f8d59b711
-      internalID: -1101095411
+      spriteID: 36d74b2532e6e67498154de71c258c78
+      internalID: -86734984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_11
+      name: Star_Incomming_13
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 2746
-        width: 900
-        height: 675
+        x: 1400
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -362,20 +404,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5afc477ad33bc194e9ac462d086ab8f6
-      internalID: -1357321590
+      spriteID: c45ae0a56d61cda45b0c7ca771b99a51
+      internalID: 38896476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_12
+      name: Star_Incomming_14
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 2746
-        width: 900
-        height: 675
+        x: 2100
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -383,20 +425,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c879f585a909061489ee9aa77e286967
-      internalID: 1668291769
+      spriteID: d06963db65fe9034f83b1d5b365e364f
+      internalID: 827347759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_13
+      name: Star_Incomming_15
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 2746
-        width: 900
-        height: 675
+        x: 2800
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,20 +446,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9af1d858696f9644e8d5c1594ddfb2fc
-      internalID: 1514528961
+      spriteID: 77e958431a22d364eb3e4e672df54841
+      internalID: -2115684290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_14
+      name: Star_Incomming_16
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 2746
-        width: 900
-        height: 675
+        x: 3500
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,20 +467,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a0455dff5b7a3540b859f3e57d0c158
-      internalID: 980218219
+      spriteID: 9a93638467e7955418b6bf7500f2d134
+      internalID: 545126734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_15
+      name: Star_Incomming_17
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 2746
-        width: 900
-        height: 675
+        x: 4200
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +488,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa819899c0407a4887065ef42365eeb
-      internalID: 422526410
+      spriteID: 7073a7a36d3ea0b40b48d47b67c4884b
+      internalID: 1628079923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_16
+      name: Star_Incomming_18
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 2620
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33979898cfad62d409fb418f81555e19
+      internalID: -479710869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_19
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 2620
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 601431c4e52edb0419a4efd633719cce
+      internalID: 825554430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_20
       rect:
         serializedVersion: 2
         x: 6300
-        y: 2746
-        width: 900
-        height: 675
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -467,20 +551,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea7d7f2d007fc0948b382a8decbe4cfb
-      internalID: -335434528
+      spriteID: 78dffd40a5c5fa642883340ca0e5562b
+      internalID: -456135607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_17
+      name: Star_Incomming_21
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 2746
-        width: 900
-        height: 675
+        x: 7000
+        y: 2620
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,20 +572,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc403bab40d692428f44487d4f7b0b1
-      internalID: 1802405623
+      spriteID: 475db2db627ef014abf29b1d5dc14503
+      internalID: 1473190965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_18
+      name: Star_Incomming_22
       rect:
         serializedVersion: 2
         x: 0
-        y: 2071
-        width: 900
-        height: 675
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -509,20 +593,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b35f794b73f2abe44b49d68f7f4ffa05
-      internalID: -156970597
+      spriteID: 73ff78ee7473c7a4f988508807a07597
+      internalID: -1143265321
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_19
+      name: Star_Incomming_23
       rect:
         serializedVersion: 2
-        x: 900
-        y: 2071
-        width: 900
-        height: 675
+        x: 700
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,20 +614,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54a2b2064a6e42e47a723065822c0249
-      internalID: 254665638
+      spriteID: 25a7274e116765540a967842674e7837
+      internalID: -900593499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_20
+      name: Star_Incomming_24
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 2071
-        width: 900
-        height: 675
+        x: 1400
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b9f34a36c641b5b4d93ca23914001ab1
-      internalID: 1270176579
+      spriteID: bb9ea2fa541c5f14db7fe2506436db93
+      internalID: 2054344261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_21
+      name: Star_Incomming_25
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 2071
-        width: 900
-        height: 675
+        x: 2100
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -572,20 +656,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4ef992f28c1abd46b55c0920972f320
-      internalID: -1905012550
+      spriteID: a536cb7e5edd45c4a84a66004a5ab432
+      internalID: 494055721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_22
+      name: Star_Incomming_26
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 2071
-        width: 900
-        height: 675
+        x: 2800
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +677,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6928b9d285c611443984c2d1b124155e
-      internalID: 6406754
+      spriteID: c906fafabd3a4cd4193f0c807109485f
+      internalID: 248307205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_23
+      name: Star_Incomming_27
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 2071
-        width: 900
-        height: 675
+        x: 3500
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -614,20 +698,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc7bdf234b865154eb0c759dd13fedf4
-      internalID: -1383486612
+      spriteID: 9d4e7adf92a998e499e5325d1b360de9
+      internalID: 78048464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_24
+      name: Star_Incomming_28
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 2071
-        width: 900
-        height: 675
+        x: 4200
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +719,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfd9e16265ca35f47a86d857d1f5ba4c
-      internalID: -1070153364
+      spriteID: 5f87fdc79acd10543a4fa7c24b87eb50
+      internalID: 633257515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_25
+      name: Star_Incomming_29
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1882
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a9e5d4ea05ab14b96e19f034898cbe
+      internalID: 910982800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_30
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1882
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dca43b306911ee4b8f9277e3e3b3e94
+      internalID: 2014908976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_31
       rect:
         serializedVersion: 2
         x: 6300
-        y: 2071
-        width: 900
-        height: 675
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,20 +782,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 112e2ac6989cc2448945f8467bd281ae
-      internalID: -1675300325
+      spriteID: fa11a09b8b30a814db8f463794895c30
+      internalID: -936512781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_26
+      name: Star_Incomming_32
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 2071
-        width: 900
-        height: 675
+        x: 7000
+        y: 1882
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -677,20 +803,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31b2c599d730b0249921d8c322fba38c
-      internalID: -2087086339
+      spriteID: b12e43eca85b671418c3272a208e62fe
+      internalID: -1393484526
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_27
+      name: Star_Incomming_33
       rect:
         serializedVersion: 2
         x: 0
-        y: 1396
-        width: 900
-        height: 675
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -698,20 +824,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed3902dfb8c6d514b8d4ad326bec36a2
-      internalID: -1387625908
+      spriteID: 47ed3f1687261764db6e5c605a9de84c
+      internalID: -764779976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_28
+      name: Star_Incomming_34
       rect:
         serializedVersion: 2
-        x: 900
-        y: 1396
-        width: 900
-        height: 675
+        x: 700
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,20 +845,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a85b70c3a7f764fa757753c445183d
-      internalID: -1631153478
+      spriteID: 07a96828179d82849917eec4c0463db8
+      internalID: 336688328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_29
+      name: Star_Incomming_35
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 1396
-        width: 900
-        height: 675
+        x: 1400
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -740,20 +866,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 660072de084daae4eabb5659d9549e30
-      internalID: 156031877
+      spriteID: 4f5e3c5e1e3891c4fb4fd30845ae5077
+      internalID: 419707314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_30
+      name: Star_Incomming_36
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 1396
-        width: 900
-        height: 675
+        x: 2100
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -761,20 +887,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a93b35b1ee617a47bfd6cfb87bd6918
-      internalID: -1885499469
+      spriteID: 6783f8ac7d9dd7442a85a4b5fff822cc
+      internalID: 2084278452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_31
+      name: Star_Incomming_37
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1396
-        width: 900
-        height: 675
+        x: 2800
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,20 +908,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4c7aca681b87954fbff061fe9e426ce
-      internalID: -1818814761
+      spriteID: e6e943cc6f8ff634782ddce60d5b7022
+      internalID: -1296105365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_32
+      name: Star_Incomming_38
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 1396
-        width: 900
-        height: 675
+        x: 3500
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -803,20 +929,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 028e24ab6801a704785ed122e7ac0660
-      internalID: 2121715371
+      spriteID: e29adb0c153e8b741afb80a494889c05
+      internalID: -760160389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_33
+      name: Star_Incomming_39
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 1396
-        width: 900
-        height: 675
+        x: 4200
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -824,20 +950,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70047fe2edff5724cbfde732bd4e3886
-      internalID: -1147758590
+      spriteID: 8d51ccf9ead1ceb4c826e2759fec1a27
+      internalID: -141422509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_34
+      name: Star_Incomming_40
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 1144
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd85ce4e70e1594f9cd8ef0282cb2bc
+      internalID: -1338491636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_41
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 1144
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc931b10778cc647a1f120f3fad2d65
+      internalID: -1268797642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_42
       rect:
         serializedVersion: 2
         x: 6300
-        y: 1396
-        width: 900
-        height: 675
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -845,20 +1013,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 50fd10e12fee5e54d98df69f4320079a
-      internalID: 1183549238
+      spriteID: b5b5d14f31b62194f9836197372b1cd0
+      internalID: 75278292
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_35
+      name: Star_Incomming_43
       rect:
         serializedVersion: 2
-        x: 7200
-        y: 1396
-        width: 900
-        height: 675
+        x: 7000
+        y: 1144
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -866,20 +1034,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db8ca5950fe930149815ed7ba90eb983
-      internalID: 1679880886
+      spriteID: 81417bf46450f78448807a1606d1792c
+      internalID: 241005594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_36
+      name: Star_Incomming_44
       rect:
         serializedVersion: 2
         x: 0
-        y: 721
-        width: 900
-        height: 675
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -887,20 +1055,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a18139395fcadd6499973a11d6dc4320
-      internalID: 1642520471
+      spriteID: 4c3e05e37aaef0846805e08a8ecacdd1
+      internalID: 1692711701
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_37
+      name: Star_Incomming_45
       rect:
         serializedVersion: 2
-        x: 900
-        y: 721
-        width: 900
-        height: 675
+        x: 700
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -908,20 +1076,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbb608159b395e74a8c42d0b78b4e89d
-      internalID: 2017514360
+      spriteID: d0f98b52668f6824ea0d9517af8c0b4b
+      internalID: -1340606925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_38
+      name: Star_Incomming_46
       rect:
         serializedVersion: 2
-        x: 1800
-        y: 721
-        width: 900
-        height: 675
+        x: 1400
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -929,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e5e627f9abcdc42b97ba05e20cb64b
-      internalID: 568909595
+      spriteID: 9abe32de4f40f1b41b4334d4156d7d66
+      internalID: 623837693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_39
+      name: Star_Incomming_47
       rect:
         serializedVersion: 2
-        x: 2700
-        y: 721
-        width: 900
-        height: 675
+        x: 2100
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -950,20 +1118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae29ab898d5ea224182edde9b84103c9
-      internalID: 1302446812
+      spriteID: 8ceb48e8d1e2e074dbca42512dfe7696
+      internalID: 2032182990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_40
+      name: Star_Incomming_48
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 721
-        width: 900
-        height: 675
+        x: 2800
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,20 +1139,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8577b5b2c525e6e4b856d83664687fa8
-      internalID: 672826901
+      spriteID: 24025fe970e8a5d4f9e31d3cb790a167
+      internalID: 613975573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_41
+      name: Star_Incomming_49
       rect:
         serializedVersion: 2
-        x: 4500
-        y: 721
-        width: 900
-        height: 675
+        x: 3500
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -992,20 +1160,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d166528c7a2b7dd4c9af4e4be1edb568
-      internalID: 1876593804
+      spriteID: b4c7cd5281c950a479744202d00001fa
+      internalID: 342241601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mier_Incomming_42
+      name: Star_Incomming_50
       rect:
         serializedVersion: 2
-        x: 5400
-        y: 721
-        width: 900
-        height: 675
+        x: 4200
+        y: 406
+        width: 700
+        height: 738
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1013,8 +1181,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3594b2d9f5b0c94c822718aaab952d4
-      internalID: -428724743
+      spriteID: 75ef4ae13c8cee148bcaadd4ff6d7ddb
+      internalID: 1548935183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_51
+      rect:
+        serializedVersion: 2
+        x: 4900
+        y: 406
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0979a77ce682a4e91a60acbc9869cb
+      internalID: -60992176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_52
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 406
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6946c3480947f8f4a92b623042304fa7
+      internalID: 414368792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_53
+      rect:
+        serializedVersion: 2
+        x: 6300
+        y: 406
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcee5c558789f01489102d65909bd163
+      internalID: 1222722930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Star_Incomming_54
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 406
+        width: 700
+        height: 738
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86cd40634b2412d4eb8a5a706717f933
+      internalID: 598273212
       vertices: []
       indices: 
       edges: []
@@ -1030,49 +1282,61 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mier_Incomming_16: -335434528
-      Mier_Incomming_42: -428724743
-      Mier_Incomming_11: -1357321590
-      Mier_Incomming_0: 126199349
-      Mier_Incomming_36: 1642520471
-      Mier_Incomming_4: 296041439
-      Mier_Incomming_2: 1709838603
-      Mier_Incomming_15: 422526410
-      Mier_Incomming_33: -1147758590
-      Mier_Incomming_18: -156970597
-      Mier_Incomming_39: 1302446812
-      Mier_Incomming_29: 156031877
-      Mier_Incomming_8: 440446319
-      Mier_Incomming_37: 2017514360
-      Mier_Incomming_30: -1885499469
-      Mier_Incomming_10: -1101095411
-      Mier_Incomming_13: 1514528961
-      Mier_Incomming_9: -916593606
-      Mier_Incomming_41: 1876593804
-      Mier_Incomming_1: -1485059637
-      Mier_Incomming_12: 1668291769
-      Mier_Incomming_7: -721836449
-      Mier_Incomming_17: 1802405623
-      Mier_Incomming_24: -1070153364
-      Mier_Incomming_27: -1387625908
-      Mier_Incomming_32: 2121715371
-      Mier_Incomming_20: 1270176579
-      Mier_Incomming_31: -1818814761
-      Mier_Incomming_25: -1675300325
-      Mier_Incomming_40: 672826901
-      Mier_Incomming_26: -2087086339
-      Mier_Incomming_35: 1679880886
-      Mier_Incomming_22: 6406754
-      Mier_Incomming_28: -1631153478
-      Mier_Incomming_5: 1569652558
-      Mier_Incomming_3: -220681113
-      Mier_Incomming_19: 254665638
-      Mier_Incomming_14: 980218219
-      Mier_Incomming_38: 568909595
-      Mier_Incomming_21: -1905012550
-      Mier_Incomming_23: -1383486612
-      Mier_Incomming_34: 1183549238
-      Mier_Incomming_6: 1163139956
+      Star_Incomming_25: 494055721
+      Star_Incomming_30: 2014908976
+      Star_Incomming_5: 2006144454
+      Star_Incomming_26: 248307205
+      Star_Incomming_54: 598273212
+      Star_Incomming_16: 545126734
+      Star_Incomming_21: 1473190965
+      Star_Incomming_34: 336688328
+      Star_Incomming_24: 2054344261
+      Star_Incomming_44: 1692711701
+      Star_Incomming_14: 827347759
+      Star_Incomming_4: -912660618
+      Star_Incomming_8: 1469105549
+      Star_Incomming_22: -1143265321
+      Star_Incomming_12: -86734984
+      Star_Incomming_28: 633257515
+      Star_Incomming_33: -764779976
+      Star_Incomming_49: 342241601
+      Star_Incomming_48: 613975573
+      Star_Incomming_10: 1970325742
+      Star_Incomming_38: -760160389
+      Star_Incomming_6: -1511330831
+      Star_Incomming_42: 75278292
+      Star_Incomming_36: 2084278452
+      Star_Incomming_9: 919354129
+      Star_Incomming_50: 1548935183
+      Star_Incomming_20: -456135607
+      Star_Incomming_32: -1393484526
+      Star_Incomming_45: -1340606925
+      Star_Incomming_3: -1234177090
+      Star_Incomming_51: -60992176
+      Star_Incomming_2: 1741523520
+      Star_Incomming_19: 825554430
+      Star_Incomming_13: 38896476
+      Star_Incomming_18: -479710869
+      Star_Incomming_41: -1268797642
+      Star_Incomming_46: 623837693
+      Star_Incomming_1: -2048922582
+      Star_Incomming_31: -936512781
+      Star_Incomming_40: -1338491636
+      Star_Incomming_23: -900593499
+      Star_Incomming_39: -141422509
+      Star_Incomming_47: 2032182990
+      Star_Incomming_35: 419707314
+      Star_Incomming_43: 241005594
+      Star_Incomming_29: 910982800
+      Star_Incomming_37: -1296105365
+      Star_Incomming_15: -2115684290
+      Star_Incomming_53: 1222722930
+      Star_Incomming_11: 481912618
+      Star_Incomming_7: 1323556681
+      Star_Incomming_0: -1894838173
+      Star_Incomming_17: 1628079923
+      Star_Incomming_52: 414368792
+      Star_Incomming_27: 78048464
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

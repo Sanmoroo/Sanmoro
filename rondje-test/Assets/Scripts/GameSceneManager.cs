@@ -16,7 +16,7 @@ public class GameSceneManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI scoreText;
     private int score = 0;
-    private int maxScore = 3;
+    private int maxScore = 6;
     private int waitBeforeMenu;
 
     public static GameSceneManager Instance()

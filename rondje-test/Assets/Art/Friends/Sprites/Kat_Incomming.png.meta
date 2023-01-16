@@ -1,0 +1,1346 @@
+fileFormatVersion: 2
+guid: a893585d0481b7f45a36e3eb3dd6f4b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kat_Incomming_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf0ed4658affce408fd57ed65a589dc
+      internalID: 862063007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_1
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb0f9154f0fa5c4bbf811730746ba0c
+      internalID: -627110041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_2
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8008a1587b3de3844aecff63a143de90
+      internalID: 547128977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_3
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10365c7fb249c648aa84c01192e6d95
+      internalID: 1044997634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_4
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2de9cc69887d564ba623ea8034d5569
+      internalID: -654169724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_5
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf2babeeac891e46adbcb6ee1960366
+      internalID: -1375708723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_6
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f7cdb6b9bc69348830247b83d15e8c
+      internalID: -1361323275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_7
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 7442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a860d6f580f7024da58f8e10eb34d07
+      internalID: 576318524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90aaab2b26b8f96449299834d1fce487
+      internalID: 2049354542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90fd06a5e4f7e6446b4a52d3288ddd41
+      internalID: 1315543479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cff7753eb3fc57248a47ddd12eaee097
+      internalID: -269722843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91605b96d311f7648bb0a2781397eb84
+      internalID: 1221339793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_12
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a3878ee8b85494cbd456b0f5995451
+      internalID: -1423797604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_13
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aada36feb71aaf4d9bafc94f04df3ff
+      internalID: 1165269765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_14
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110ce42b8f4de5d4ca203abad9974663
+      internalID: 1480080372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_15
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 6692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4941359d85574464b8df5d977b7a2d0a
+      internalID: -874632884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36dd4d518fa9814a9c11b74431c3865
+      internalID: -263308786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_17
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a621b48bb91f038439a8d5463b14b81b
+      internalID: -831533939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_18
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79d4638e951fcaa4d8dc3c6a270404c9
+      internalID: 414361961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_19
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e0c875427e9da946bff1ccca58d2699
+      internalID: -1992520202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_20
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2bca7e4c0fb3914cbc5727a59d2fd10
+      internalID: 1753396102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_21
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201454675f61c544b922e6e43f417a99
+      internalID: 1705083947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_22
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2b6c1913a2ea341bbfdc7a907e61f0
+      internalID: -1512713616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_23
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa2cfec8154ad34e832f3c6bdbc6931
+      internalID: -1149865449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e951370ef52d8a84b94b9057b67dbc95
+      internalID: 324464749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_25
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f0947c4839a824ea1a7f35eda71f1e
+      internalID: 1134868546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_26
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2c076dc05858049a824b7e8e787ba7
+      internalID: 1613856476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_27
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b49ffeaf9dd2ce428797685f33e5990
+      internalID: -716361508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_28
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a6b6be0e06805849a631a62bd171fe1
+      internalID: -832480179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_29
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba991467f61c8845846b15c8aefc502
+      internalID: -1024078192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_30
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f298924bdce447a499e1950af43d6489
+      internalID: -1896443316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_31
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 5192
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60722650fe37f934e9602b3d7fa50f61
+      internalID: 680408032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceda3ea4867f6c845b04f9e5b519314f
+      internalID: 1003750566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_33
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa7d65dcf40f2d40814d0a9703fff5e
+      internalID: -1900741035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_34
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f7308e0efa2fe54a85df6d3e90b3857
+      internalID: 1418874253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_35
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88ab5f367fe66e459344d4f5ea31eb1
+      internalID: 843712049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_36
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad6627d4b272f0459996a3b3f994db8
+      internalID: -1567540298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_37
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265a9179f1d6fb742b3bc66d344f3dbb
+      internalID: -1577973068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_38
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1de65ed711bc24a832ed5de292a3e0
+      internalID: -1041394179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_39
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 4442
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68cc371ab881bf545aae587d85963456
+      internalID: -185716980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfc2b2f65daf5d498b469197c65f611
+      internalID: 1633982455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_41
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26968a86e737e2b4d871049e6e5c03b9
+      internalID: 75711875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_42
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d021fd63d32097c44bac7ef2030d26d8
+      internalID: 1810951616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_43
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e0dcc1025960b4aa026d0597d4f8da
+      internalID: -634190215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_44
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ccea2b9d72aaa048a3585ab5fa399d1
+      internalID: -257666750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_45
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4156a5bade9774f9f39950c573d75d
+      internalID: 180299012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_46
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a23e503c9573bb4bb77f41cf20c47f5
+      internalID: -1393969797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_47
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3692
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0fddd1642107b4086bfac85f172d77
+      internalID: 1771763274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff252926cdf049e47ba0ecf0d808ebdf
+      internalID: 1655920457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_49
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f88e1bd6129d1e4ea95a266fd1759f0
+      internalID: -2123749529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_50
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 480dcc08e0a70dc45a5b6ffd0d0cc838
+      internalID: -1177252677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_51
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e67b30cc13496b468b81f76f622872b
+      internalID: -1570899440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_52
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f407ceec415eb1b4791aa1ef06a296f4
+      internalID: -1448880660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_53
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a8426ec2edfe345a768189f4614b65
+      internalID: 2007125594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_54
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2942
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84246c1bb1acfbc49b55e77bc10bd611
+      internalID: -1754911670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kat_Incomming_6: -1361323275
+      Kat_Incomming_8: 2049354542
+      Kat_Incomming_32: 1003750566
+      Kat_Incomming_5: -1375708723
+      Kat_Incomming_40: 1633982455
+      Kat_Incomming_17: -831533939
+      Kat_Incomming_20: 1753396102
+      Kat_Incomming_22: -1512713616
+      Kat_Incomming_31: 680408032
+      Kat_Incomming_21: 1705083947
+      Kat_Incomming_51: -1570899440
+      Kat_Incomming_18: 414361961
+      Kat_Incomming_35: 843712049
+      Kat_Incomming_37: -1577973068
+      Kat_Incomming_0: 862063007
+      Kat_Incomming_41: 75711875
+      Kat_Incomming_16: -263308786
+      Kat_Incomming_48: 1655920457
+      Kat_Incomming_27: -716361508
+      Kat_Incomming_24: 324464749
+      Kat_Incomming_11: 1221339793
+      Kat_Incomming_29: -1024078192
+      Kat_Incomming_3: 1044997634
+      Kat_Incomming_33: -1900741035
+      Kat_Incomming_52: -1448880660
+      Kat_Incomming_12: -1423797604
+      Kat_Incomming_25: 1134868546
+      Kat_Incomming_15: -874632884
+      Kat_Incomming_30: -1896443316
+      Kat_Incomming_46: -1393969797
+      Kat_Incomming_53: 2007125594
+      Kat_Incomming_2: 547128977
+      Kat_Incomming_14: 1480080372
+      Kat_Incomming_19: -1992520202
+      Kat_Incomming_49: -2123749529
+      Kat_Incomming_39: -185716980
+      Kat_Incomming_47: 1771763274
+      Kat_Incomming_36: -1567540298
+      Kat_Incomming_50: -1177252677
+      Kat_Incomming_7: 576318524
+      Kat_Incomming_1: -627110041
+      Kat_Incomming_4: -654169724
+      Kat_Incomming_55: 1080704663
+      Kat_Incomming_10: -269722843
+      Kat_Incomming_28: -832480179
+      Kat_Incomming_34: 1418874253
+      Kat_Incomming_9: 1315543479
+      Kat_Incomming_13: 1165269765
+      Kat_Incomming_43: -634190215
+      Kat_Incomming_23: -1149865449
+      Kat_Incomming_26: 1613856476
+      Kat_Incomming_42: 1810951616
+      Kat_Incomming_44: -257666750
+      Kat_Incomming_45: 180299012
+      Kat_Incomming_38: -1041394179
+      Kat_Incomming_54: -1754911670
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
