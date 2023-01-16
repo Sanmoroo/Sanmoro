@@ -16,7 +16,7 @@ public class GameSceneManager : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI scoreText;
     private int score = 0;
-    private int maxScore = 6;
+    private int maxScore = 3;
     private int waitBeforeMenu;
 
     public static GameSceneManager Instance()
@@ -48,7 +48,7 @@ public class GameSceneManager : MonoBehaviour
         // back to menu.
         waitBeforeMenu = 15;
 
-        scoreText.text = $"Vrienden gevonden: {score} / {maxScore}";
+        scoreText.text = $" {score} / {maxScore}";
     }
 
     private void Update()
@@ -81,7 +81,7 @@ public class GameSceneManager : MonoBehaviour
     public void UpdateScore()
     {
         score += 1;
-        scoreText.text = $"Vrienden gevonden: {score} / {maxScore}";
+        scoreText.text = $" {score} / {maxScore}";
 
         if (score >= maxScore)
         {
