@@ -1,0 +1,1334 @@
+fileFormatVersion: 2
+guid: c56560d3db199da46b99c2fb997262bd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b710a4f4e4b46fc49ad2a20e5ff049ac
+      internalID: 1856084209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607d61d371fb6e24f8d3aad227fcef04
+      internalID: 896476528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c4ddfd31841ae24cb5001cabb16e3c3
+      internalID: -2049662757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081cd1f8d77e2a84684b9b61f89e0cdb
+      internalID: -462669732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae3b77d0e04a8e489a60f9a2fa0b3ce
+      internalID: 559160674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4726dabb6a57d94d87e1e0f47bd8ec1
+      internalID: -778103183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011608c508a4a824f886db04f47e6340
+      internalID: -884848932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3721
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377bf98fa57b35e45a2d60698a29f918
+      internalID: 1844125620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4925bc5c753a62744b1effa28ecd5051
+      internalID: 1122015695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 432ee2c94e025e24ebf4c9dfcad90f51
+      internalID: 1885705802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b0555c5e69f334197880436b542f7b
+      internalID: -1136666724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0f310d4370afc418f39bc97e12298f
+      internalID: -755004968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f245ce185bfb649adfc2f2d6e1efe3
+      internalID: 1571643643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_13
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d830510e7753a7748a961ba771f2da42
+      internalID: -1800524543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe881c9b70933d42a8102fe83cc396f
+      internalID: -2032723176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_15
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3346
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd9b7c6df988db844a4adc73cdf9bd45
+      internalID: -757138748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8caf7076dea8f484c9bce22bacebfba8
+      internalID: -1882639821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da8d91276185a8478ed39c955e0b701
+      internalID: 1734608465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_18
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca545106f5d839d48a5a1e8bf230e790
+      internalID: -2049401524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88980b4ed329e9149b981eda4e5117dd
+      internalID: 1205683244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a248e1b1ed3d34eb0e1aeb343cb7d1
+      internalID: 498695567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_21
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db22c4549cecc242a9f4e02a6a77ae7
+      internalID: 1843729290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b041cf2a2bf8f448b049e0f4c082f5
+      internalID: -672549854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_23
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2971
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb1ce2809111ef46bab83619bfc477b
+      internalID: 762600145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8feb4ae9cb1199a4991211d24b0e52ad
+      internalID: -1247944995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac78e1e7f2b70940a008e3191c26eb4
+      internalID: 1779312086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1862164f5e1b92b48be17f3d4ec1e94a
+      internalID: -1422178988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c9f0b7e0b75fd469a7127be250d83a
+      internalID: -934398713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36c4c26579957ab418458f475b19ec07
+      internalID: -1576539096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51e9031b8ffe854fac0ea246725e081
+      internalID: 1914451673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_30
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f23f528fa6cf2542b8a15895c7039ed
+      internalID: 312374182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_31
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2596
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e88e70572773044b7f4d181fadb83e
+      internalID: 1785846523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a82f09df0c062d4db50a2427c9865f7
+      internalID: 1682732956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_33
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4a45f1b511f7954ea1e6e5ae20e7ca7
+      internalID: 1126888623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b21ff4f77b8b13a45aa4e85a133a427d
+      internalID: -159525304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_35
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd19a22bd90e88841af4331be1b66ab8
+      internalID: 619022703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_36
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1694cc2bb323b4043aed467cdd42d493
+      internalID: 1880377476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_37
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e2df95f3b292544b8ed9f35f0dd6d9c
+      internalID: -1431542843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_38
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8a2323a62bf454c955e5f68d7d8356
+      internalID: -2119204934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_39
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2221
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd3d385ba908b1a4eb91caa002775c76
+      internalID: -2048706385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 595d80af85fdcf240baefcee75d2c08a
+      internalID: -2057866986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_41
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c24b3e4b8e8df49b894f281a7765fa
+      internalID: -1386434188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_42
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a220c1f331ed14c4bb00c2dbe7a81e24
+      internalID: 312476400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_43
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed9801542eb51c4d910f37461cf4a29
+      internalID: 2115722885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_44
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2b3fd75dbef641b35f7a2b9020265
+      internalID: 1466294688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_45
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9497ba001d393ca48b607609f970ecb6
+      internalID: -1457479773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_46
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e134e311981610468099a38f213586a
+      internalID: 2009350097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_47
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1846
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6171abb08fa09b840be17a1dd4f2bc8a
+      internalID: -1024445237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633e75e3f3130bf459003830b473d24b
+      internalID: 1751613939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_49
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b911f45847fedc4419ac7ddaa6356ec5
+      internalID: -27407028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_50
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0d19da5ce33644bd76db5d5ea165a
+      internalID: 1706825457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_51
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4d05128330d6641baa32b8a97b7bba
+      internalID: -1800966324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_52
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd78bd49fb229814a98dad0758f2a3d6
+      internalID: 623658359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_53
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b51f118d7551e7439507704e7f9914e
+      internalID: 1077265562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Incomming_Small_54
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1471
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a643d82276191b94ebc93128fda7faf0
+      internalID: -1701122516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Kat_Incomming_Small_50: 1706825457
+      Kat_Incomming_Small_40: -2057866986
+      Kat_Incomming_Small_28: -1576539096
+      Kat_Incomming_Small_22: -672549854
+      Kat_Incomming_Small_36: 1880377476
+      Kat_Incomming_Small_29: 1914451673
+      Kat_Incomming_Small_31: 1785846523
+      Kat_Incomming_Small_8: 1122015695
+      Kat_Incomming_Small_35: 619022703
+      Kat_Incomming_Small_45: -1457479773
+      Kat_Incomming_Small_0: 1856084209
+      Kat_Incomming_Small_25: 1779312086
+      Kat_Incomming_Small_37: -1431542843
+      Kat_Incomming_Small_46: 2009350097
+      Kat_Incomming_Small_12: 1571643643
+      Kat_Incomming_Small_52: 623658359
+      Kat_Incomming_Small_54: -1701122516
+      Kat_Incomming_Small_17: 1734608465
+      Kat_Incomming_Small_26: -1422178988
+      Kat_Incomming_Small_32: 1682732956
+      Kat_Incomming_Small_16: -1882639821
+      Kat_Incomming_Small_4: 559160674
+      Kat_Incomming_Small_15: -757138748
+      Kat_Incomming_Small_7: 1844125620
+      Kat_Incomming_Small_53: 1077265562
+      Kat_Incomming_Small_18: -2049401524
+      Kat_Incomming_Small_21: 1843729290
+      Kat_Incomming_Small_48: 1751613939
+      Kat_Incomming_Small_44: 1466294688
+      Kat_Incomming_Small_38: -2119204934
+      Kat_Incomming_Small_39: -2048706385
+      Kat_Incomming_Small_14: -2032723176
+      Kat_Incomming_Small_34: -159525304
+      Kat_Incomming_Small_51: -1800966324
+      Kat_Incomming_Small_27: -934398713
+      Kat_Incomming_Small_24: -1247944995
+      Kat_Incomming_Small_11: -755004968
+      Kat_Incomming_Small_3: -462669732
+      Kat_Incomming_Small_49: -27407028
+      Kat_Incomming_Small_30: 312374182
+      Kat_Incomming_Small_47: -1024445237
+      Kat_Incomming_Small_6: -884848932
+      Kat_Incomming_Small_1: 896476528
+      Kat_Incomming_Small_23: 762600145
+      Kat_Incomming_Small_19: 1205683244
+      Kat_Incomming_Small_2: -2049662757
+      Kat_Incomming_Small_41: -1386434188
+      Kat_Incomming_Small_33: 1126888623
+      Kat_Incomming_Small_55: 1841331629
+      Kat_Incomming_Small_5: -778103183
+      Kat_Incomming_Small_9: 1885705802
+      Kat_Incomming_Small_13: -1800524543
+      Kat_Incomming_Small_42: 312476400
+      Kat_Incomming_Small_10: -1136666724
+      Kat_Incomming_Small_43: 2115722885
+      Kat_Incomming_Small_20: 498695567
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
