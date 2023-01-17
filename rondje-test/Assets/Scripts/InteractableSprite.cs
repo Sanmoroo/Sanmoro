@@ -39,7 +39,7 @@ public abstract class InteractableSprite : MonoBehaviour
         lastTriggered = DateTime.Now;
 
         // Change number in add seconds to increase the delay between the game starting and interactions being possible
-        introFinished = DateTime.Now.AddSeconds(30.5);
+        introFinished = DateTime.Now.AddSeconds(2);
 
         // Set alpha of sprites to be 0 when the game starts
         spriteRend.color = new Color(1, 1, 1, 0);
@@ -95,7 +95,7 @@ public abstract class InteractableSprite : MonoBehaviour
     public bool CooldownExpired()
     {
         TimeSpan timeDifference = DateTime.Now - lastTriggered;
-        if (timeDifference.TotalSeconds > 13)
+        if (timeDifference.TotalSeconds > 2)
             return true;
 
         return false;

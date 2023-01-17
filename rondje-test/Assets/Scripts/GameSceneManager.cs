@@ -42,11 +42,11 @@ public class GameSceneManager : MonoBehaviour
     void Start()
     {
         // Change number to decide how long the user is allowed to be absent before being sent back to menu
-        allowedAbsence = 20f;
+        allowedAbsence = 10f;
 
         // Change number to decide how long the game should wait after the user finds all friends before being sent
         // back to menu.
-        waitBeforeMenu = 30;
+        waitBeforeMenu = 5;
 
         scoreText.text = $" {score}/{maxScore}";
     }

@@ -9,12 +9,13 @@ public class MenuManager : MonoBehaviour
     private GazeAware gazeAware;
     // TODO: place reference to game object here and make it active in the LoadSceneAsync method below 
 
-
-    private static DateTime? gazeInitiallyTriggered = null;
-    private static DateTime? timeincrementAllowed = null;
-    private static float gazeAwareTimer;
-    private static float timeToTriggerGame;
-    private static float timeBeforeTimerReset;
+    //TODO: Make this a singleton  
+    private DateTime? gazeInitiallyTriggered = null;
+    private DateTime? timeincrementAllowed = null;
+    private float gazeAwareTimer;
+    private float timeToTriggerGame;
+    private float timeBeforeTimerReset;
+    private bool hasTriggered;
 
     public AsyncOperation AsyncOperation { get; private set; }
 
@@ -28,7 +29,8 @@ public class MenuManager : MonoBehaviour
         timeToTriggerGame = 4f;
 
         // Change this number to decide how long timer should stack before being reset.
-        timeBeforeTimerReset = 20f;
+        timeBeforeTimerReset = 10f;
+
     }
 
     // Update is called once per frame
@@ -58,9 +60,10 @@ public class MenuManager : MonoBehaviour
             }
 
             // The user has looked at the menu for long enough, trigger scene change
-            if (gazeAwareTimer >= timeToTriggerGame)
+            if ((gazeAwareTimer >= timeToTriggerGame) && !hasTriggered)
             {
                 StartCoroutine(LoadSceneAsync());
+                hasTriggered = true;
             }
         }
     }
