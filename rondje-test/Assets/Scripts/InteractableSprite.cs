@@ -7,10 +7,11 @@ using UnityEngine.SceneManagement;
 public abstract class InteractableSprite : MonoBehaviour
 {
     // Won't change
-    private Renderer spriteRend;
+    private SpriteRenderer spriteRend;
     private Animator anim;
     private AudioManager aud;
     private GazeAware gazeAware;
+    private GameObject introBox;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
 
@@ -25,10 +26,11 @@ public abstract class InteractableSprite : MonoBehaviour
     public void Start()
     {
         // Get neccessary objects.
-        spriteRend = GetComponent<Renderer>();
+        spriteRend = GetComponent<SpriteRenderer>();
         anim = gameObject.GetComponent<Animator>();
         aud = FindObjectOfType<AudioManager>();
         gazeAware =  GameObject.Find(AttachedTrigger).GetComponent<GazeAware>();
+        introBox = GameObject.Find("Intro");
 
         // Each sprite starts with their interaction untriggered
         UntriggeredInteraction = true;
@@ -40,7 +42,7 @@ public abstract class InteractableSprite : MonoBehaviour
         introFinished = DateTime.Now.AddSeconds(37);
 
         // Set alpha of sprites to be 0 when the game starts
-        spriteRend.material.color = new Color(1, 1, 1, 0);
+        spriteRend.color = new Color(1, 1, 1, 0);
     }
 
     // Update is called once per frame
@@ -49,6 +51,11 @@ public abstract class InteractableSprite : MonoBehaviour
         if (gazeAware.HasGazeFocus)
         {
             StartInteraction();
+        }
+
+        if (IntroFinished())
+        {
+            introBox.SetActive(false);
         }
     }
 
@@ -83,7 +90,7 @@ public abstract class InteractableSprite : MonoBehaviour
 
     /// <summary>
     /// Change number to change to time it takes for the interactible strite to be ready again 
-    /// Returns true if last fade happened more than 10 seconds ago, false if not
+    /// Returns true if last fade happened more than the specified seconds ago, false if not
     /// </summary>
     public bool CooldownExpired()
     {
@@ -124,7 +131,7 @@ public abstract class InteractableSprite : MonoBehaviour
         {
             // Increments/ decrements the alpha value and sets it to be the new colour of the sprite
             Color newColor = new Color(1, 1, 1, Mathf.Lerp(alpha, aValue, t));
-            spriteRend.material.color = newColor;
+            spriteRend.color = newColor;
 
             // Wait for the next frame and continue execution from this line
             yield return null;

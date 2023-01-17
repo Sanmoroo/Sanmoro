@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Tobii.Gaming;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,11 +7,16 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     private GazeAware gazeAware;
+    // TODO: place reference to game object here and make it active in the LoadSceneAsync method below 
+
+
     private static DateTime? gazeInitiallyTriggered = null;
     private static DateTime? timeincrementAllowed = null;
     private static float gazeAwareTimer;
     private static float timeToTriggerGame;
     private static float timeBeforeTimerReset;
+
+    public AsyncOperation AsyncOperation { get; private set; }
 
     // Start is called before the first frame update
     void Start()
@@ -54,13 +60,26 @@ public class MenuManager : MonoBehaviour
             // The user has looked at the menu for long enough, trigger scene change
             if (gazeAwareTimer >= timeToTriggerGame)
             {
-                SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
+                StartCoroutine(LoadSceneAsync());
             }
+        }
+    }
+
+    IEnumerator LoadSceneAsync()
+    {
+        AsyncOperation loadingOperation = SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
+
+        while (!loadingOperation.isDone)
+        {
+            // TODO: Activate your loading screen here
+            Debug.Log("Loading scene...");
+
+            yield return null;
         }
     }
 
     private void OnMouseEnter()
     {
-        SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
+        StartCoroutine(LoadSceneAsync());
     }
 }
