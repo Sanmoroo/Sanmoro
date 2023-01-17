@@ -19,10 +19,10 @@ public class MenuManager : MonoBehaviour
         gazeAware = GameObject.Find("PlayButtonTrigger").GetComponent<GazeAware>();
 
         // Change this number to decide how long the menu should be gazed at before the game triggers.
-        timeToTriggerGame = 3f;
+        timeToTriggerGame = 4f;
 
         // Change this number to decide how long timer should stack before being reset.
-        timeBeforeTimerReset = 10f;
+        timeBeforeTimerReset = 20f;
     }
 
     // Update is called once per frame
