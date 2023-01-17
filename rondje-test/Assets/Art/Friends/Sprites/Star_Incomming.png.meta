@@ -69,8 +69,8 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
+    textureFormat: 4
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -79,9 +79,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -1306,9 +1306,9 @@ TextureImporter:
       Star_Incomming_6: -1511330831
       Star_Incomming_42: 75278292
       Star_Incomming_36: 2084278452
-      Star_Incomming_9: 919354129
-      Star_Incomming_50: 1548935183
       Star_Incomming_20: -456135607
+      Star_Incomming_50: 1548935183
+      Star_Incomming_9: 919354129
       Star_Incomming_32: -1393484526
       Star_Incomming_45: -1340606925
       Star_Incomming_3: -1234177090

@@ -37,7 +37,7 @@ public abstract class InteractableSprite : MonoBehaviour
         lastTriggered = DateTime.Now;
 
         // Change number in add seconds to increase the delay between the game starting and interactions being possible
-        introFinished = DateTime.Now.AddSeconds(35);
+        introFinished = DateTime.Now.AddSeconds(32);
 
         // Set alpha of sprites to be 0 when the game starts
         spriteRend.material.color = new Color(1, 1, 1, 0);
