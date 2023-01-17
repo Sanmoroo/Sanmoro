@@ -3,7 +3,7 @@ using System;
 
 public class Kat : InteractableSprite
 {
-    public override float TimeToFade => 0.1f;
+    public override float TimeToFade => 1f;
     public override string AttachedAnimation => "Kat_Incomming";
     public override string AttachedSound => "Kat";
     public override string AttachedTrigger => "Kat_Trigger";
