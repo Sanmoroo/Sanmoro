@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class MenuManager : MonoBehaviour
 {
     private GazeAware gazeAware;
+    private SceneLoader sceneLoader;
+
     // TODO: place reference to game object here and make it active in the LoadSceneAsync method below 
 
     //TODO: Make this a singleton  
@@ -24,6 +26,7 @@ public class MenuManager : MonoBehaviour
     {
         TobiiAPI.Start(null);
         gazeAware = GameObject.Find("PlayButtonTrigger").GetComponent<GazeAware>();
+        sceneLoader = FindObjectOfType<SceneLoader>();
 
         // Change this number to decide how long the menu should be gazed at before the game triggers.
         timeToTriggerGame = 4f;
@@ -62,28 +65,14 @@ public class MenuManager : MonoBehaviour
             // The user has looked at the menu for long enough, trigger scene change
             if ((gazeAwareTimer >= timeToTriggerGame) && !hasTriggered)
             {
-                StartCoroutine(LoadSceneAsync());
+                StartCoroutine(sceneLoader.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single));
                 hasTriggered = true;
             }
         }
     }
 
-    IEnumerator LoadSceneAsync()
-    {
-        AsyncOperation loadingOperation = SceneManager.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single);
-
-        while (!loadingOperation.isDone)
-        {
-            // TODO: Activate your loading screen here
-            Debug.Log("Loading scene...");
-
-            yield return null;
-        }
-    }
-
     private void OnMouseEnter()
     {
-        Debug.Log("entered");
-        StartCoroutine(LoadSceneAsync());
+        StartCoroutine(sceneLoader.LoadSceneAsync("Zjacky_Art_Scene", LoadSceneMode.Single));
     }
 }

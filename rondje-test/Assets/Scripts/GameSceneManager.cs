@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameSceneManager : MonoBehaviour
 {
     public static GameSceneManager instance;
+    public SceneLoader sceneLoader;
 
     // Presence tracking
     private float userNotPresentTimer;
@@ -41,12 +42,14 @@ public class GameSceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        sceneLoader = FindObjectOfType<SceneLoader>();
+
         // Change number to decide how long the user is allowed to be absent before being sent back to menu
         allowedAbsence = 10f;
 
         // Change number to decide how long the game should wait after the user finds all friends before being sent
         // back to menu.
-        waitBeforeMenu = 30;
+        waitBeforeMenu = 5;
 
         scoreText.text = $" {score}/{maxScore}";
     }
@@ -68,7 +71,7 @@ public class GameSceneManager : MonoBehaviour
 
             if (userNotPresentTimer > allowedAbsence)
             {
-                SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
+                StartCoroutine(sceneLoader.LoadSceneAsync("Menu", LoadSceneMode.Single));
             }
 
         }
@@ -92,6 +95,6 @@ public class GameSceneManager : MonoBehaviour
     private IEnumerator SendBackToMenu()
     {
         yield return new WaitForSeconds(waitBeforeMenu);
-        SceneManager.LoadSceneAsync("Menu", LoadSceneMode.Single);
+        StartCoroutine(sceneLoader.LoadSceneAsync("Menu", LoadSceneMode.Single));
     }
 }
