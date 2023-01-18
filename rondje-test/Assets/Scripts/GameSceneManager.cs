@@ -7,7 +7,7 @@ using UnityEngine.SceneManagement;
 public class GameSceneManager : MonoBehaviour
 {
     public static GameSceneManager instance;
-    public SceneLoader sceneLoader;
+    private SceneLoader sceneLoader;
 
     // Presence tracking
     private float userNotPresentTimer;
@@ -31,7 +31,7 @@ public class GameSceneManager : MonoBehaviour
         // Initializes gaze data provider with default settings.
         TobiiAPI.Start(null);
 
-        // Make sure there is an AudioManager object initialized.
+        // Make sure there is an GameSceneManager object initialized.
         if (instance == null)
             instance = this;
         else
@@ -43,6 +43,9 @@ public class GameSceneManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Initializes gaze data provider with default settings.
+        TobiiAPI.Start(null);
+
         sceneLoader = FindObjectOfType<SceneLoader>();
 
         // Change number to decide how long the user is allowed to be absent before being sent back to menu

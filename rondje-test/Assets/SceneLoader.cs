@@ -9,8 +9,6 @@ public class SceneLoader : MonoBehaviour
 
     public IEnumerator LoadSceneAsync(string sceneName, LoadSceneMode loadSceneMode)
     {
-        transition.SetTrigger("Start");
-
         AsyncOperation loadingOperation = SceneManager.LoadSceneAsync(sceneName, loadSceneMode);
         loadingOperation.allowSceneActivation = false;
 
@@ -18,8 +16,8 @@ public class SceneLoader : MonoBehaviour
         {
             yield return new WaitForEndOfFrame();
         }
-        
-        transition.SetTrigger("End");
+
+        transition.SetTrigger("Start");
         loadingOperation.allowSceneActivation = true;
     }
 }

@@ -2,7 +2,6 @@ using System;
 using System.Collections;
 using UnityEngine;
 using Tobii.Gaming;
-using UnityEngine.SceneManagement;
 
 public abstract class InteractableSprite : MonoBehaviour
 {
