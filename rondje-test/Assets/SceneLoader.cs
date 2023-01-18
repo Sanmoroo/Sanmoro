@@ -12,15 +12,14 @@ public class SceneLoader : MonoBehaviour
         transition.SetTrigger("Start");
 
         AsyncOperation loadingOperation = SceneManager.LoadSceneAsync(sceneName, loadSceneMode);
+        loadingOperation.allowSceneActivation = false;
 
-        while (!loadingOperation.isDone)
+        while (loadingOperation.progress < 0.9f)
         {
-            yield return null;
+            yield return new WaitForEndOfFrame();
         }
         
-        if (loadingOperation.isDone)
-        {
-            transition.SetTrigger("End");
-        }
+        transition.SetTrigger("End");
+        loadingOperation.allowSceneActivation = true;
     }
 }
