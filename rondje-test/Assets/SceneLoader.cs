@@ -17,5 +17,10 @@ public class SceneLoader : MonoBehaviour
         {
             yield return null;
         }
+        
+        if (loadingOperation.isDone)
+        {
+            transition.SetTrigger("End");
+        }
     }
 }
