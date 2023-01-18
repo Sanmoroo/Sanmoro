@@ -12,6 +12,7 @@ public class GameSceneManager : MonoBehaviour
     // Presence tracking
     private float userNotPresentTimer;
     private float allowedAbsence;
+    private bool hasTriggered;
 
     // Score
     [SerializeField]
@@ -69,9 +70,10 @@ public class GameSceneManager : MonoBehaviour
         {
             userNotPresentTimer += Time.deltaTime;
 
-            if (userNotPresentTimer > allowedAbsence)
+            if ((userNotPresentTimer > allowedAbsence) && !hasTriggered)
             {
                 StartCoroutine(sceneLoader.LoadSceneAsync("Menu", LoadSceneMode.Single));
+                hasTriggered = true;
             }
 
         }
