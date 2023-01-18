@@ -49,6 +49,7 @@ public abstract class InteractableSprite : MonoBehaviour
     {
         if (gazeAware.HasGazeFocus)
         {
+            Debug.Log("Triggered");
             StartInteraction();
         }
 
