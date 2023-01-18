@@ -46,7 +46,7 @@ public class GameSceneManager : MonoBehaviour
 
         // Change number to decide how long the game should wait after the user finds all friends before being sent
         // back to menu.
-        waitBeforeMenu = 5;
+        waitBeforeMenu = 30;
 
         scoreText.text = $" {score}/{maxScore}";
     }

@@ -67,10 +67,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 4096
+    maxTextureSize: 8192
     resizeAlgorithm: 0
-    textureFormat: 4
-    textureCompression: 2
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -79,14 +79,14 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 4096
+    maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: 4
+    textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
-    overridden: 1
+    overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -121,7 +121,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1298
+        y: 3346
         width: 1000
         height: 750
       alignment: 0
@@ -131,8 +131,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb9bbd7466f87124fa60709942d1de6b
-      internalID: -577546745
+      spriteID: 71424526f56a05e4289148c9059f5abc
+      internalID: 1864164350
       vertices: []
       indices: 
       edges: []
@@ -142,7 +142,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1000
-        y: 1298
+        y: 3346
         width: 1000
         height: 750
       alignment: 0
@@ -152,8 +152,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6f47bea9ca3bd34e9c76204d3dd0307
-      internalID: -130477602
+      spriteID: 79f8f224cf49e1549b9c038d2eb508ee
+      internalID: 1387028296
       vertices: []
       indices: 
       edges: []
@@ -163,7 +163,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 2000
-        y: 1298
+        y: 3346
         width: 1000
         height: 750
       alignment: 0
@@ -173,8 +173,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2996b45beb53cd43a8d9214143737b1
-      internalID: 646928735
+      spriteID: 24659aec1550ec24cbc21718f8f0967c
+      internalID: -262221800
       vertices: []
       indices: 
       edges: []
@@ -184,7 +184,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3000
-        y: 1298
+        y: 3346
         width: 1000
         height: 750
       alignment: 0
@@ -194,8 +194,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130c04a505c5e1145a3bfa0ea50cd142
-      internalID: -415030874
+      spriteID: d368183adcbc4154bb9d0135cef97e1c
+      internalID: -666107745
       vertices: []
       indices: 
       edges: []
@@ -205,7 +205,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 548
+        y: 2596
         width: 1000
         height: 750
       alignment: 0
@@ -215,8 +215,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d6bad6b18f538c4fb5b3b9370b3b0a6
-      internalID: -873671618
+      spriteID: 67bbf46d6d0563f4aad7cbba490c37c9
+      internalID: 1888515502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2596
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8144bc91205024c9b61285b971d520
+      internalID: -1148623406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2596
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb8a274377464e849a7ad6903037e0d6
+      internalID: -1700420658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2596
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 882bcfdb9d2bea641b085124c9b6b33b
+      internalID: 159156544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1846
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72336e37a8c80a345844eb2365aa07ef
+      internalID: -565946226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_9
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1846
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f819841b0f5654a9aca1b62839fc82
+      internalID: -1475861666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_10
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1846
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66405085b722af742b753dd8e7719997
+      internalID: 1932606201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kat_Idle_11
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1846
+        width: 1000
+        height: 750
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d2e848710c75dc408b1fa58f085c2fa
+      internalID: 1403370079
       vertices: []
       indices: 
       edges: []
@@ -232,11 +379,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Kat_Idle_1: -130477602
-      Kat_Idle_2: 646928735
-      Kat_Idle_0: -577546745
-      Kat_Idle_4: -873671618
-      Kat_Idle_3: -415030874
+      Kat_Idle_10: 1932606201
+      Kat_Idle_5: -1148623406
+      Kat_Idle_1: 1387028296
+      Kat_Idle_2: -262221800
+      Kat_Idle_0: 1864164350
+      Kat_Idle_8: -565946226
+      Kat_Idle_9: -1475861666
+      Kat_Idle_6: -1700420658
+      Kat_Idle_4: 1888515502
+      Kat_Idle_11: 1403370079
+      Kat_Idle_3: -666107745
+      Kat_Idle_7: 159156544
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
