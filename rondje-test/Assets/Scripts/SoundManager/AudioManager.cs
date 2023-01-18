@@ -18,8 +18,6 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
 
-        DontDestroyOnLoad(gameObject);
-
         // Options for each sound in the sound list.
         foreach (Sound s in sounds)
         {
