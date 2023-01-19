@@ -46,7 +46,7 @@ public abstract class InteractableSprite : MonoBehaviour
         spriteRend.color = new Color(1, 1, 1, 0);
 
         // Set the increment gaze aware timer stuff here
-        timeToTriggerInteraction = 0.5f;
+        timeToTriggerInteraction = 0.25f;
         timeBeforeTimerReset = 0.5f;
     }
 
@@ -77,7 +77,7 @@ public abstract class InteractableSprite : MonoBehaviour
             }
 
             // The user has looked at the menu for long enough, trigger interaction
-            if ((gazeAwareTimer >= timeToTriggerInteraction) && UntriggeredInteraction)
+            if ((gazeAwareTimer >= timeToTriggerInteraction))
             {
                 StartInteraction();
             }

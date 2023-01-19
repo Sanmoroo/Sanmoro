@@ -8,6 +8,7 @@ public class GameSceneManager : MonoBehaviour
 {
     public static GameSceneManager instance;
     private SceneLoader sceneLoader;
+    private AudioManager aud;
 
     // Presence tracking
     private float userNotPresentTimer;
@@ -47,13 +48,14 @@ public class GameSceneManager : MonoBehaviour
         TobiiAPI.Start(null);
 
         sceneLoader = FindObjectOfType<SceneLoader>();
+        aud = FindObjectOfType<AudioManager>();
 
         // Change number to decide how long the user is allowed to be absent before being sent back to menu
         allowedAbsence = 10f;
 
         // Change number to decide how long the game should wait after the user finds all friends before being sent
         // back to menu.
-        waitBeforeMenu = 20;
+        waitBeforeMenu = 23;
 
         scoreText.text = $" {score}/{maxScore}";
     }
@@ -99,6 +101,8 @@ public class GameSceneManager : MonoBehaviour
 
     private IEnumerator SendBackToMenu()
     {
+        yield return new WaitForSeconds(14);
+        aud.Play("Outro");
         yield return new WaitForSeconds(waitBeforeMenu);
         StartCoroutine(sceneLoader.LoadSceneAsync("Menu", LoadSceneMode.Single));
     }
