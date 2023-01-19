@@ -13,6 +13,11 @@ public abstract class InteractableSprite : MonoBehaviour
     private GameObject introBox;
     private static DateTime lastTriggered;
     private static DateTime introFinished;
+    private DateTime? gazeInitiallyTriggered = null;
+    private DateTime? timeincrementAllowed = null;
+    private float gazeAwareTimer;
+    private float timeToTriggerInteraction;
+    private float timeBeforeTimerReset;
 
     // Overridable in child classes
     public abstract float TimeToFade { get; }
@@ -33,15 +38,16 @@ public abstract class InteractableSprite : MonoBehaviour
 
         // Each sprite starts with their interaction untriggered
         UntriggeredInteraction = true;
-
         //TODO: Set this to something specific
         lastTriggered = DateTime.Now;
-
         // Change number in add seconds to increase the delay between the game starting and interactions being possible
         introFinished = DateTime.Now.AddSeconds(31);
-
         // Set alpha of sprites to be 0 when the game starts
         spriteRend.color = new Color(1, 1, 1, 0);
+
+        // Set the increment gaze aware timer stuff here
+        timeToTriggerInteraction = 0.5f;
+        timeBeforeTimerReset = 0.5f;
     }
 
     // Update is called once per frame
@@ -49,8 +55,32 @@ public abstract class InteractableSprite : MonoBehaviour
     {
         if (gazeAware.HasGazeFocus)
         {
-            Debug.Log("Triggered");
-            StartInteraction();
+            // Set intial values for the timestamp that the gaze was first detected and the length of time we're going to be
+            // incrementing the gazeAwareTimer after that
+            if (!gazeInitiallyTriggered.HasValue)
+            {
+                gazeInitiallyTriggered = DateTime.Now;
+                timeincrementAllowed = gazeInitiallyTriggered.Value.AddSeconds(timeBeforeTimerReset);
+            }
+
+            // If we haven't gone over the allowance (time since first triggering gaze detection), increment the timer.
+            if (!(DateTime.Now > timeincrementAllowed))
+            {
+                gazeAwareTimer += Time.deltaTime;
+            }
+            else
+            // We've gone over the allowance, reset all of our timer variables.
+            {
+                gazeInitiallyTriggered = null;
+                timeincrementAllowed = null;
+                gazeAwareTimer = 0f;
+            }
+
+            // The user has looked at the menu for long enough, trigger interaction
+            if ((gazeAwareTimer >= timeToTriggerInteraction) && UntriggeredInteraction)
+            {
+                StartInteraction();
+            }
         }
 
         if (IntroFinished())
