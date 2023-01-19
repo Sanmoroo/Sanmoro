@@ -1682,6 +1682,11 @@ MonoBehaviour:
     volume: 0.85
     pitch: 1
     source: {fileID: 0}
+  - name: Outro
+    clip: {fileID: 8300000, guid: e0b7e398319e4db438e780cb8cf2d13d, type: 3}
+    volume: 0.85
+    pitch: 1
+    source: {fileID: 0}
 --- !u!4 &633456904
 Transform:
   m_ObjectHideFlags: 0
@@ -2388,7 +2393,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034620926}
   m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
-  m_LocalPosition: {x: -232.6191, y: 256.8, z: 0}
+  m_LocalPosition: {x: -232.6191, y: 263.4, z: 0}
   m_LocalScale: {x: 38.649742, y: 38.649742, z: 38.649742}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2573,8 +2578,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1528962148}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1566.8208, y: 62.8344, z: 0}
-  m_LocalScale: {x: 309.2898, y: 306.71768, z: 307.55112}
+  m_LocalPosition: {x: 1526.6877, y: 23.0351, z: 0}
+  m_LocalScale: {x: 389.5505, y: 386.31094, z: 387.36063}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2141634242}
@@ -2814,8 +2819,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813079950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -535, y: 86, z: 0}
-  m_LocalScale: {x: 231.67465, y: 235.99722, z: 231.10147}
+  m_LocalPosition: {x: -498.5376, y: 48.8573, z: 0}
+  m_LocalScale: {x: 304.60583, y: 310.28915, z: 303.85223}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 706792288}
